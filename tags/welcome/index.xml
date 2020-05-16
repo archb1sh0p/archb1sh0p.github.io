@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>welcome on archbishopsec</title>
-    <link>https://archbishopsecurity.com/tags/welcome/</link>
+    <link>https://archb1sh0p.github.io/tags/welcome/</link>
     <description>Recent content in welcome on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 May 2020 21:59:20 +0000</lastBuildDate>
     
-	<atom:link href="https://archbishopsecurity.com/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archb1sh0p.github.io/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>https://archbishopsecurity.com/posts/hello/</link>
+      <link>https://archb1sh0p.github.io/posts/hello/</link>
       <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
       
-      <guid>https://archbishopsecurity.com/posts/hello/</guid>
+      <guid>https://archb1sh0p.github.io/posts/hello/</guid>
       <description>Finally time to revive this, I have decided to start writing more.
 Archbishop</description>
     </item>
