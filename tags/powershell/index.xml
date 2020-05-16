@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powershell on archbishopsec</title>
+    <link>https://archbishopsecurity.com/tags/powershell/</link>
+    <description>Recent content in powershell on archbishopsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 May 2020 21:39:49 +1000</lastBuildDate>
+    
+	<atom:link href="https://archbishopsecurity.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to PowerShell More Betterer</title>
+      <link>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</link>
+      <pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
+      
+      <guid>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</guid>
+      <description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
+    </item>
+    
+  </channel>
+</rss>
