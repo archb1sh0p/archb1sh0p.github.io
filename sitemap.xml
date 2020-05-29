@@ -3,47 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://archb1sh0p.github.io/about/</loc>
+    <loc>https://archbishopsecurity.com/tags/active-directory/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/posts/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/powershell/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/about/</loc>
     <lastmod>2020-05-16T21:46:26+10:00</lastmod>
   </url>
   
   <url>
-    <loc>https://archb1sh0p.github.io/</loc>
+    <loc>https://archbishopsecurity.com/</loc>
     <lastmod>2020-05-16T21:46:26+10:00</lastmod>
   </url>
   
   <url>
-    <loc>https://archb1sh0p.github.io/posts/how-to-powershell-more-betterer/</loc>
+    <loc>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</loc>
     <lastmod>2020-05-16T21:39:49+10:00</lastmod>
   </url>
   
   <url>
-    <loc>https://archb1sh0p.github.io/posts/</loc>
-    <lastmod>2020-05-16T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archb1sh0p.github.io/tags/powershell/</loc>
-    <lastmod>2020-05-16T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archb1sh0p.github.io/tags/</loc>
-    <lastmod>2020-05-16T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archb1sh0p.github.io/posts/hello/</loc>
+    <loc>https://archbishopsecurity.com/posts/hello/</loc>
     <lastmod>2020-05-15T21:59:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://archb1sh0p.github.io/tags/welcome/</loc>
+    <loc>https://archbishopsecurity.com/tags/welcome/</loc>
     <lastmod>2020-05-15T21:59:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://archb1sh0p.github.io/categories/</loc>
+    <loc>https://archbishopsecurity.com/categories/</loc>
   </url>
   
 </urlset>

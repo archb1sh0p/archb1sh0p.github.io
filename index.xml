@@ -2,40 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>archbishopsec</title>
-    <link>https://archb1sh0p.github.io/</link>
+    <link>https://archbishopsecurity.com/</link>
     <description>Recent content on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 May 2020 21:46:26 +1000</lastBuildDate>
     
-	<atom:link href="https://archb1sh0p.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archbishopsecurity.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Powershell Working With AD and Variables</title>
+      <link>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</link>
+      <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
+      
+      <guid>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</guid>
+      <description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
+See here for the details, I shan&amp;rsquo;t bore you again.
+Setting the scene&amp;hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
+For this particular client service accounts are identified with “SRV_ACC” at the start of the username.</description>
+    </item>
+    
+    <item>
       <title>About</title>
-      <link>https://archb1sh0p.github.io/about/</link>
+      <link>https://archbishopsecurity.com/about/</link>
       <pubDate>Sat, 16 May 2020 21:46:26 +1000</pubDate>
       
-      <guid>https://archb1sh0p.github.io/about/</guid>
-      <description>whois archbishop... I can be reached at archbishop at archbishopsecurity dot com and if you feel so inclined you can use the below PGP key
------BEGIN PGP PUBLIC KEY BLOCK----- xjMEXT7HGRYJKwYBBAHaRw8BAQdAdBTe81PbeBU6O9gqJIQ7Kx0e0hbwykiI ZiIcEsh2PPvNRWFyY2hiaXNob3BAYXJjaGJpc2hvcHNlY3VyaXR5LmNvbSA8 YXJjaGJpc2hvcEBhcmNoYmlzaG9wc2VjdXJpdHkuY29tPsJ3BBAWCgAfBQJd PscZBgsJBwgDAgQVCAoCAxYCAQIZAQIbAwIeAQAKCRBpvOTSpyGY+seUAQC/ Euco+fu9SWGgF7kBjGQ8RBtwW6jap7ySt1/hvHJ6wAD/RFSkIZpa7KIevjCG j4OTRuAXqXUMrHXvhtVwo79vAgTOOARdPscZEgorBgEEAZdVAQUBAQdAptu5 PBvyftSLfZ7ZJqd/TwDqYtEu+NYjdh8dh6PpRiEDAQgHwmEEGBYIAAkFAl0+ xxkCGwwACgkQabzk0qchmPoo8wEAiO7XMZW5k67cawBP/Rox96rLTIsEBtwA Rndat/tJoMgBAP84G1+2A71QkP03iAqMBTY/CW+QF/DkH951FcM8eggA =dtSZ -----END PGP PUBLIC KEY BLOCK----- </description>
+      <guid>https://archbishopsecurity.com/about/</guid>
+      <description>whois archbishop... I can be reached at archb 1 sh 0 p at protonmail dot com and if you feel so inclined you can use the below PGP key
+-----BEGIN PGP PUBLIC KEY BLOCK----- xjMEXN61GhYJKwYBBAHaRw8BAQdAfTS11UU5NFguKsASVvqSMIqbOCFitSW+ uEuKaYmqfynNNWFyY2hiMXNoMHBAcHJvdG9ubWFpbC5jb20gPGFyY2hiMXNo MHBAcHJvdG9ubWFpbC5jb20+wncEEBYKAB8FAlzetRoGCwkHCAMCBBUICgID FgIBAhkBAhsDAh4BAAoJEPaNQJUz6NOkMHMA/AsaENELp9L3A5x2Lt7B8ZP5 cNpkJZovjc1V/SAmg00tAQCl0kcemLWFN8X96GT/CMI/O4lJxeX2QiqaTdy4 q72+As44BFzetRoSCisGAQQBl1UBBQEBB0B+gOUwa9dt709HbbhunK6EFhfi VDP3kPQSGnBJcmpIaQMBCAfCYQQYFggACQUCXN61GgIbDAAKCRD2jUCVM+jT pFpsAP9NlELXCgAtFN9aXgRW8ZeDh0XOOiyyvuagu8GILQ6yuQD/U+8AuUWB +CgAiM4alAV1/r5ENNNfgdFKgpeRgnDXMw8= =AHXm -----END PGP PUBLIC KEY BLOCK----- </description>
     </item>
     
     <item>
       <title>How to PowerShell More Betterer</title>
-      <link>https://archb1sh0p.github.io/posts/how-to-powershell-more-betterer/</link>
+      <link>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</link>
       <pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
       
-      <guid>https://archb1sh0p.github.io/posts/how-to-powershell-more-betterer/</guid>
+      <guid>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</guid>
       <description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
     </item>
     
     <item>
       <title>Hello</title>
-      <link>https://archb1sh0p.github.io/posts/hello/</link>
+      <link>https://archbishopsecurity.com/posts/hello/</link>
       <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
       
-      <guid>https://archb1sh0p.github.io/posts/hello/</guid>
+      <guid>https://archbishopsecurity.com/posts/hello/</guid>
       <description>Finally time to revive this, I have decided to start writing more.
 Archbishop</description>
     </item>
