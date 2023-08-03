@@ -5,8 +5,47 @@
 		<description>Recent content in Posts on archbishopsec</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Mon, 18 May 2020 22:28:47 +1000</lastBuildDate>
+		<lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
 		<atom:link href="https://archbishopsecurity.com/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>CyberCon 2023 Incident Management References</title>
+			<link>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</link>
+			<pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
+			
+			<guid>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</guid>
+			<description>References Thanks for listening :)
+Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
+https://www.afac.com.au/insight/doctrine
+Coronial inquests and Reviews https://nla.gov.au/nla.obj-3112961467/view
+http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf
+https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;amp;mode=browse
+https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry
+Australian Journal of Emergency Management https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/
+Australian Institute for Disaster Resilience (Australian Emergency Management Library and handbook collection https://knowledge.aidr.org.au/collections/emergency-management-library/
+https://knowledge.aidr.org.au/collections/handbook-collection/
+The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
+https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+			<content type="html"><![CDATA[<h1 id="references">References</h1>
+<p>Thanks for listening :)</p>
+<h2 id="australian-fire-authorities-council-for-aiims-related-material">Australian Fire Authorities Council for AIIMS related material</h2>
+<p><a href="https://www.afac.com.au/initiative/aiims">https://www.afac.com.au/initiative/aiims</a></p>
+<p><a href="https://www.afac.com.au/insight/doctrine">https://www.afac.com.au/insight/doctrine</a></p>
+<h2 id="coronial-inquests-and-reviews">Coronial inquests and Reviews</h2>
+<p><a href="https://nla.gov.au/nla.obj-3112961467/view">https://nla.gov.au/nla.obj-3112961467/view</a></p>
+<p><a href="http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf">http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf</a></p>
+<p><a href="https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;mode=browse">https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;mode=browse</a></p>
+<p><a href="https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry">https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry</a></p>
+<h2 id="australian-journal-of-emergency-management">Australian Journal of Emergency Management</h2>
+<p><a href="https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/">https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/</a></p>
+<h2 id="australian-institute-for-disaster-resilience-australian-emergency-management-library-and-handbook-collection">Australian Institute for Disaster Resilience (Australian Emergency Management Library and handbook collection</h2>
+<p><a href="https://knowledge.aidr.org.au/collections/emergency-management-library/">https://knowledge.aidr.org.au/collections/emergency-management-library/</a></p>
+<p><a href="https://knowledge.aidr.org.au/collections/handbook-collection/">https://knowledge.aidr.org.au/collections/handbook-collection/</a></p>
+<h2 id="the-acsc-csirp-template">The ACSC CSIRP Template</h2>
+<p><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan">https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan</a></p>
+<p><a href="https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf">https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</a></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Powershell Working With AD and Variables</title>

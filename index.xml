@@ -12,6 +12,26 @@
     
     
     <item>
+      <title>CyberCon 2023 Incident Management References</title>
+      <link>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</link>
+      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
+      
+      <guid>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</guid>
+      <description>References Thanks for listening :)
+Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
+https://www.afac.com.au/insight/doctrine
+Coronial inquests and Reviews https://nla.gov.au/nla.obj-3112961467/view
+http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf
+https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;amp;mode=browse
+https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry
+Australian Journal of Emergency Management https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/
+Australian Institute for Disaster Resilience (Australian Emergency Management Library and handbook collection https://knowledge.aidr.org.au/collections/emergency-management-library/
+https://knowledge.aidr.org.au/collections/handbook-collection/
+The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
+https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+    </item>
+    
+    <item>
       <title>Powershell Working With AD and Variables</title>
       <link>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</link>
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
@@ -29,8 +49,10 @@ For this particular client service accounts are identified with “SRV_ACC” at
       <pubDate>Sat, 16 May 2020 21:46:26 +1000</pubDate>
       
       <guid>https://archbishopsecurity.com/about/</guid>
-      <description>whois archbishop... I can be reached at archb 1 sh 0 p at protonmail dot com and if you feel so inclined you can use the below PGP key
------BEGIN PGP PUBLIC KEY BLOCK----- xjMEXN61GhYJKwYBBAHaRw8BAQdAfTS11UU5NFguKsASVvqSMIqbOCFitSW+ uEuKaYmqfynNNWFyY2hiMXNoMHBAcHJvdG9ubWFpbC5jb20gPGFyY2hiMXNo MHBAcHJvdG9ubWFpbC5jb20+wncEEBYKAB8FAlzetRoGCwkHCAMCBBUICgID FgIBAhkBAhsDAh4BAAoJEPaNQJUz6NOkMHMA/AsaENELp9L3A5x2Lt7B8ZP5 cNpkJZovjc1V/SAmg00tAQCl0kcemLWFN8X96GT/CMI/O4lJxeX2QiqaTdy4 q72+As44BFzetRoSCisGAQQBl1UBBQEBB0B+gOUwa9dt709HbbhunK6EFhfi VDP3kPQSGnBJcmpIaQMBCAfCYQQYFggACQUCXN61GgIbDAAKCRD2jUCVM+jT pFpsAP9NlELXCgAtFN9aXgRW8ZeDh0XOOiyyvuagu8GILQ6yuQD/U+8AuUWB +CgAiM4alAV1/r5ENNNfgdFKgpeRgnDXMw8= =AHXm -----END PGP PUBLIC KEY BLOCK----- </description>
+      <description>whois archbishop... I like solving problems, and learning new things, I suppose this is where you put that you&amp;rsquo;re a perpetual student and all that jazz.
+Just another dude who likes breaking stuff, just really slowly because I&amp;rsquo;m a bit dumb.
+During the day I work in a Security Operations Center as an Lead Analyst
+What I also like is people, so feel free to reach out, I&amp;rsquo;m also on OJ&amp;rsquo;s discord as &amp;ldquo;TheArchbishop&amp;rdquo; I can be reached at archb1sh0p[at]protonmail[dot]com and if you feel so inclined you can use the below PGP key.</description>
     </item>
     
     <item>

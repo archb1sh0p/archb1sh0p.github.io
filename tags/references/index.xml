@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>References on archbishopsec</title>
+    <link>https://archbishopsecurity.com/tags/references/</link>
+    <description>Recent content in References on archbishopsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
+    
+	<atom:link href="https://archbishopsecurity.com/tags/references/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CyberCon 2023 Incident Management References</title>
+      <link>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</link>
+      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
+      
+      <guid>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</guid>
+      <description>References Thanks for listening :)
+Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
+https://www.afac.com.au/insight/doctrine
+Coronial inquests and Reviews https://nla.gov.au/nla.obj-3112961467/view
+http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf
+https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;amp;mode=browse
+https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry
+Australian Journal of Emergency Management https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/
+Australian Institute for Disaster Resilience (Australian Emergency Management Library and handbook collection https://knowledge.aidr.org.au/collections/emergency-management-library/
+https://knowledge.aidr.org.au/collections/handbook-collection/
+The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
+https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+    </item>
+    
+  </channel>
+</rss>

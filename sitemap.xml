@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://archbishopsecurity.com/tags/active-directory/</loc>
-    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+    <loc>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/incidentmanagement/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://archbishopsecurity.com/posts/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/references/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/talks/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishopsecurity.com/tags/active-directory/</loc>
     <lastmod>2020-05-18T22:28:47+10:00</lastmod>
   </url>
   
@@ -19,11 +44,6 @@
   
   <url>
     <loc>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</loc>
-    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishopsecurity.com/tags/</loc>
     <lastmod>2020-05-18T22:28:47+10:00</lastmod>
   </url>
   
