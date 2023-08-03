@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on archbishopsec</title>
-    <link>https://archbishopsecurity.com/tags/</link>
+    <link>https://archbishop.io/tags/</link>
     <description>Recent content in Tags on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
     
-	<atom:link href="https://archbishopsecurity.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archbishop.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IncidentManagement</title>
-      <link>https://archbishopsecurity.com/tags/incidentmanagement/</link>
+      <link>https://archbishop.io/tags/incidentmanagement/</link>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/tags/incidentmanagement/</guid>
+      <guid>https://archbishop.io/tags/incidentmanagement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>References</title>
-      <link>https://archbishopsecurity.com/tags/references/</link>
+      <link>https://archbishop.io/tags/references/</link>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/tags/references/</guid>
+      <guid>https://archbishop.io/tags/references/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>https://archbishopsecurity.com/tags/talks/</link>
+      <link>https://archbishop.io/tags/talks/</link>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/tags/talks/</guid>
+      <guid>https://archbishop.io/tags/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>active directory</title>
-      <link>https://archbishopsecurity.com/tags/active-directory/</link>
+      <link>https://archbishop.io/tags/active-directory/</link>
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/tags/active-directory/</guid>
+      <guid>https://archbishop.io/tags/active-directory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>powershell</title>
-      <link>https://archbishopsecurity.com/tags/powershell/</link>
+      <link>https://archbishop.io/tags/powershell/</link>
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/tags/powershell/</guid>
+      <guid>https://archbishop.io/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>welcome</title>
-      <link>https://archbishopsecurity.com/tags/welcome/</link>
+      <link>https://archbishop.io/tags/welcome/</link>
       <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
       
-      <guid>https://archbishopsecurity.com/tags/welcome/</guid>
+      <guid>https://archbishop.io/tags/welcome/</guid>
       <description></description>
     </item>
     

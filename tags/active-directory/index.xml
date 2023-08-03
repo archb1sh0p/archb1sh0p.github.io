@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>active directory on archbishopsec</title>
-    <link>https://archbishopsecurity.com/tags/active-directory/</link>
+    <link>https://archbishop.io/tags/active-directory/</link>
     <description>Recent content in active directory on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 May 2020 22:28:47 +1000</lastBuildDate>
     
-	<atom:link href="https://archbishopsecurity.com/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archbishop.io/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Powershell Working With AD and Variables</title>
-      <link>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</link>
+      <link>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</link>
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</guid>
+      <guid>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</guid>
       <description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
 See here for the details, I shan&amp;rsquo;t bore you again.
 Setting the scene&amp;hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”

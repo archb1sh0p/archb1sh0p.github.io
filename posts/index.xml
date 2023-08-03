@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on archbishopsec</title>
-		<link>https://archbishopsecurity.com/posts/</link>
+		<link>https://archbishop.io/posts/</link>
 		<description>Recent content in Posts on archbishopsec</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
-		<atom:link href="https://archbishopsecurity.com/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://archbishop.io/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>CyberCon 2023 Incident Management References</title>
-			<link>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</link>
+			<link>https://archbishop.io/posts/cybercon-2023-incident-management-references/</link>
 			<pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
 			
-			<guid>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</guid>
+			<guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
 			<description>References Thanks for listening :)
 Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
 https://www.afac.com.au/insight/doctrine
@@ -49,10 +49,10 @@ https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20R
 		
 		<item>
 			<title>Powershell Working With AD and Variables</title>
-			<link>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</link>
+			<link>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</link>
 			<pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
 			
-			<guid>https://archbishopsecurity.com/posts/powershell-working-with-ad-and-variables/</guid>
+			<guid>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</guid>
 			<description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
 See here for the details, I shan&amp;rsquo;t bore you again.
 Setting the scene&amp;hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
@@ -126,10 +126,10 @@ $PrivilegeUsers | Where-Object name <span style="color:#f92672">-Like</span> <sp
 		
 		<item>
 			<title>How to PowerShell More Betterer</title>
-			<link>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</link>
+			<link>https://archbishop.io/posts/how-to-powershell-more-betterer/</link>
 			<pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
 			
-			<guid>https://archbishopsecurity.com/posts/how-to-powershell-more-betterer/</guid>
+			<guid>https://archbishop.io/posts/how-to-powershell-more-betterer/</guid>
 			<description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
 			<content type="html"><![CDATA[<h1 id="why">Why?</h1>
 <h3 id="there-are-thousands-of-blogs-posts-and-resources-out-there-already-about-powershell-did-we-really-some-other-numpty-sharing-their-thoughts">There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts?</h3>
@@ -150,10 +150,10 @@ $PrivilegeUsers | Where-Object name <span style="color:#f92672">-Like</span> <sp
 		
 		<item>
 			<title>Hello</title>
-			<link>https://archbishopsecurity.com/posts/hello/</link>
+			<link>https://archbishop.io/posts/hello/</link>
 			<pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
 			
-			<guid>https://archbishopsecurity.com/posts/hello/</guid>
+			<guid>https://archbishop.io/posts/hello/</guid>
 			<description>Finally time to revive this, I have decided to start writing more.
 Archbishop</description>
 			<content type="html"><![CDATA[<p>Finally time to revive this, I have decided to start writing more.</p>

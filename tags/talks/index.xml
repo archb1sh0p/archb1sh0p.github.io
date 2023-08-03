@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on archbishopsec</title>
-    <link>https://archbishopsecurity.com/tags/talks/</link>
+    <link>https://archbishop.io/tags/talks/</link>
     <description>Recent content in Talks on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
     
-	<atom:link href="https://archbishopsecurity.com/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archbishop.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CyberCon 2023 Incident Management References</title>
-      <link>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</link>
+      <link>https://archbishop.io/posts/cybercon-2023-incident-management-references/</link>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishopsecurity.com/posts/cybercon-2023-incident-management-references/</guid>
+      <guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
       <description>References Thanks for listening :)
 Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
 https://www.afac.com.au/insight/doctrine
