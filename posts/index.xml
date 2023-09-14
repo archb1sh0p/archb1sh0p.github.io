@@ -5,8 +5,58 @@
 		<description>Recent content in Posts on archbishopsec</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
+		<lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate>
 		<atom:link href="https://archbishop.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
+			<link>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</link>
+			<pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
+			
+			<guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
+			<description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
+Appreciate all the feedback.
+SOC https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036
+https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/
+Sensitivity and Specificity Great video that gets you up to speed quickly
+https://www.youtube.com/watch?v=psELBu7muNY
+These ones are super in depth, rewarding if you can stay awake
+https://www.frontiersin.org/articles/10.3389/fpubh.2017.00307/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/
+Triage https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus
+https://acem.org.au/Content-Sources/Advancing-Emergency-Medicine/Better-Outcomes-for-Patients/Triage
+Investigation https://www.healthknowledge.org.uk/public-health-textbook/disease-causation-diagnostic/2c-diagnosis-screening/screening-diagnostic-case-finding
+https://www.mindtools.com/au7v71d/the-johari-window
+A.S.S - Analyst Support System Quality Reads :tm: https://www.freshwaterpublishing.com.au/book/
+https://atulgawande.com/book/the-checklist-manifesto/</description>
+			<content type="html"><![CDATA[<p>Thanks for coming along, here&rsquo;s a collection of resources, some of the graphics, and references from the night.</p>
+<p>Appreciate all the feedback.</p>
+<h2 id="soc">SOC</h2>
+<p><img src="/static/Funnel.png" alt="SOC Funnel"></p>
+<p><a href="https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036">https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036</a></p>
+<p><a href="https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/">https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/</a></p>
+<h2 id="sensitivity-and-specificity">Sensitivity and Specificity</h2>
+<p><img src="/static/Sensitive.png" alt="Sensitivity and Specificity"></p>
+<p>Great video that gets you up to speed quickly</p>
+<p><a href="https://www.youtube.com/watch?v=psELBu7muNY">https://www.youtube.com/watch?v=psELBu7muNY</a></p>
+<p>These ones are super in depth, rewarding if you can stay awake</p>
+<p><a href="https://www.frontiersin.org/articles/10.3389/fpubh.2017.00307/full">https://www.frontiersin.org/articles/10.3389/fpubh.2017.00307/full</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/</a></p>
+<h2 id="triage">Triage</h2>
+<p><img src="/static/ATS.png" alt="ATS"></p>
+<p><a href="https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus">https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus</a></p>
+<p><a href="https://acem.org.au/Content-Sources/Advancing-Emergency-Medicine/Better-Outcomes-for-Patients/Triage">https://acem.org.au/Content-Sources/Advancing-Emergency-Medicine/Better-Outcomes-for-Patients/Triage</a></p>
+<h2 id="investigation">Investigation</h2>
+<p><img src="/static/Tests.png" alt="Screening tests are not diagnostic tests"></p>
+<p><a href="https://www.healthknowledge.org.uk/public-health-textbook/disease-causation-diagnostic/2c-diagnosis-screening/screening-diagnostic-case-finding">https://www.healthknowledge.org.uk/public-health-textbook/disease-causation-diagnostic/2c-diagnosis-screening/screening-diagnostic-case-finding</a></p>
+<p><a href="https://www.mindtools.com/au7v71d/the-johari-window">https://www.mindtools.com/au7v71d/the-johari-window</a></p>
+<h2 id="ass---analyst-support-system">A.S.S - Analyst Support System</h2>
+<p><img src="/static/Support-strat.png" alt="Analyst Support Strategy"></p>
+<h2 id="quality-reads-tm">Quality Reads :tm:</h2>
+<p><a href="https://www.freshwaterpublishing.com.au/book/">https://www.freshwaterpublishing.com.au/book/</a></p>
+<p><a href="https://atulgawande.com/book/the-checklist-manifesto/">https://atulgawande.com/book/the-checklist-manifesto/</a></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>CyberCon 2023 Incident Management References</title>

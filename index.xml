@@ -12,6 +12,29 @@
     
     
     <item>
+      <title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
+      <link>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</link>
+      <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
+      <description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
+Appreciate all the feedback.
+SOC https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036
+https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/
+Sensitivity and Specificity Great video that gets you up to speed quickly
+https://www.youtube.com/watch?v=psELBu7muNY
+These ones are super in depth, rewarding if you can stay awake
+https://www.frontiersin.org/articles/10.3389/fpubh.2017.00307/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/
+Triage https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus
+https://acem.org.au/Content-Sources/Advancing-Emergency-Medicine/Better-Outcomes-for-Patients/Triage
+Investigation https://www.healthknowledge.org.uk/public-health-textbook/disease-causation-diagnostic/2c-diagnosis-screening/screening-diagnostic-case-finding
+https://www.mindtools.com/au7v71d/the-johari-window
+A.S.S - Analyst Support System Quality Reads :tm: https://www.freshwaterpublishing.com.au/book/
+https://atulgawande.com/book/the-checklist-manifesto/</description>
+    </item>
+    
+    <item>
       <title>CyberCon 2023 Incident Management References</title>
       <link>https://archbishop.io/posts/cybercon-2023-incident-management-references/</link>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
@@ -29,6 +52,18 @@ Australian Institute for Disaster Resilience (Australian Emergency Management Li
 https://knowledge.aidr.org.au/collections/handbook-collection/
 The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
 https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+    </item>
+    
+    <item>
+      <title>How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck</title>
+      <link>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</link>
+      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
+      
+      <guid>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</guid>
+      <description>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”
+The Magicians Nephew
+Set the scene Detection Engineering is equal parts storytelling and equal parts technical.
+Detection engineering is inherently a very technical and often abstracted process, but conversely there&amp;rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)</description>
     </item>
     
     <item>
@@ -52,7 +87,7 @@ For this particular client service accounts are identified with “SRV_ACC” at
       <description>whois archbishop... I like solving problems, and learning new things, I suppose this is where you put that you&amp;rsquo;re a perpetual student and all that jazz.
 Just another dude who likes breaking stuff, just really slowly because I&amp;rsquo;m a bit dumb.
 During the day I work in a Security Operations Center as an Lead Analyst
-What I also like is people, so feel free to reach out, I&amp;rsquo;m also on OJ&amp;rsquo;s discord as &amp;ldquo;TheArchbishop&amp;rdquo; I can be reached at archb1sh0p[at]protonmail[dot]com and if you feel so inclined you can use the below PGP key.</description>
+What I also like is people, so feel free to reach out. I&amp;rsquo;m also on OJ&amp;rsquo;s discord as &amp;ldquo;TheArchbishop&amp;rdquo;.</description>
     </item>
     
     <item>

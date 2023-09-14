@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>communication on archbishopsec</title>
+    <link>https://archbishop.io/tags/communication/</link>
+    <description>Recent content in communication on archbishopsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
+    
+	<atom:link href="https://archbishop.io/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck</title>
+      <link>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</link>
+      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
+      
+      <guid>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</guid>
+      <description>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”
+The Magicians Nephew
+Set the scene Detection Engineering is equal parts storytelling and equal parts technical.
+Detection engineering is inherently a very technical and often abstracted process, but conversely there&amp;rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)</description>
+    </item>
+    
+  </channel>
+</rss>

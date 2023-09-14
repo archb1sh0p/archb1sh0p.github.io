@@ -3,7 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://archbishop.io/posts/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/tags/references/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/tags/secops/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/tags/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/tags/talks/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/tags/communication/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://archbishop.io/posts/cybercon-2023-incident-management-references/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/tags/detectionengineering/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/drafts/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</loc>
     <lastmod>2023-03-20T15:39:49+10:00</lastmod>
   </url>
   
@@ -13,22 +63,7 @@
   </url>
   
   <url>
-    <loc>https://archbishop.io/posts/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/references/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/talks/</loc>
+    <loc>https://archbishop.io/tags/whatsinaname/</loc>
     <lastmod>2023-03-20T15:39:49+10:00</lastmod>
   </url>
   
