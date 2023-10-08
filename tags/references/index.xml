@@ -6,17 +6,14 @@
     <description>Recent content in References on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate>
-    
-	<atom:link href="https://archbishop.io/tags/references/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate><atom:link href="https://archbishop.io/tags/references/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
       <link>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</link>
       <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
+      
       <description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
 Appreciate all the feedback.
 SOC https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036
@@ -32,6 +29,7 @@ Investigation https://www.healthknowledge.org.uk/public-health-textbook/disease-
 https://www.mindtools.com/au7v71d/the-johari-window
 A.S.S - Analyst Support System Quality Reads :tm: https://www.freshwaterpublishing.com.au/book/
 https://atulgawande.com/book/the-checklist-manifesto/</description>
+      
     </item>
     
     <item>
@@ -40,6 +38,7 @@ https://atulgawande.com/book/the-checklist-manifesto/</description>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
+      
       <description>References Thanks for listening :)
 Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
 https://www.afac.com.au/insight/doctrine
@@ -52,6 +51,7 @@ Australian Institute for Disaster Resilience (Australian Emergency Management Li
 https://knowledge.aidr.org.au/collections/handbook-collection/
 The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
 https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+      
     </item>
     
   </channel>

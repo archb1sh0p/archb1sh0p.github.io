@@ -6,17 +6,14 @@
     <description>Recent content in IncidentManagement on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate>
-    
-	<atom:link href="https://archbishop.io/tags/incidentmanagement/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 Mar 2023 15:39:49 +1000</lastBuildDate><atom:link href="https://archbishop.io/tags/incidentmanagement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CyberCon 2023 Incident Management References</title>
       <link>https://archbishop.io/posts/cybercon-2023-incident-management-references/</link>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
+      
       <description>References Thanks for listening :)
 Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
 https://www.afac.com.au/insight/doctrine
@@ -29,6 +26,7 @@ Australian Institute for Disaster Resilience (Australian Emergency Management Li
 https://knowledge.aidr.org.au/collections/handbook-collection/
 The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
 https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+      
     </item>
     
   </channel>

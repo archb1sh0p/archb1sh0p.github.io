@@ -6,17 +6,14 @@
     <description>Recent content in SecOps on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate>
-    
-	<atom:link href="https://archbishop.io/tags/secops/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate><atom:link href="https://archbishop.io/tags/secops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
       <link>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</link>
       <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
+      
       <description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
 Appreciate all the feedback.
 SOC https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036
@@ -32,6 +29,7 @@ Investigation https://www.healthknowledge.org.uk/public-health-textbook/disease-
 https://www.mindtools.com/au7v71d/the-johari-window
 A.S.S - Analyst Support System Quality Reads :tm: https://www.freshwaterpublishing.com.au/book/
 https://atulgawande.com/book/the-checklist-manifesto/</description>
+      
     </item>
     
   </channel>

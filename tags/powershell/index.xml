@@ -6,21 +6,19 @@
     <description>Recent content in powershell on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2020 22:28:47 +1000</lastBuildDate>
-    
-	<atom:link href="https://archbishop.io/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 18 May 2020 22:28:47 +1000</lastBuildDate><atom:link href="https://archbishop.io/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell Working With AD and Variables</title>
       <link>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</link>
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</guid>
+      
       <description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
 See here for the details, I shan&amp;rsquo;t bore you again.
 Setting the scene&amp;hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
 For this particular client service accounts are identified with “SRV_ACC” at the start of the username.</description>
+      
     </item>
     
     <item>
@@ -29,7 +27,9 @@ For this particular client service accounts are identified with “SRV_ACC” at
       <pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/how-to-powershell-more-betterer/</guid>
+      
       <description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
+      
     </item>
     
   </channel>

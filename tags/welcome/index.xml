@@ -6,19 +6,17 @@
     <description>Recent content in welcome on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 21:59:20 +0000</lastBuildDate>
-    
-	<atom:link href="https://archbishop.io/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 15 May 2020 21:59:20 +0000</lastBuildDate><atom:link href="https://archbishop.io/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
       <link>https://archbishop.io/posts/hello/</link>
       <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
       
       <guid>https://archbishop.io/posts/hello/</guid>
+      
       <description>Finally time to revive this, I have decided to start writing more.
 Archbishop</description>
+      
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 21:46:26 +1000</lastBuildDate>
-    
-	<atom:link href="https://archbishop.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 07 Oct 2023 21:00:00 +1000</lastBuildDate><atom:link href="https://archbishop.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Alert Names that Don&#39;t Suck - How to win hearts of SOC Analysts</title>
+      <link>https://archbishop.io/posts/alert-names-that-dont-suck/</link>
+      <pubDate>Sat, 07 Oct 2023 21:00:00 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/alert-names-that-dont-suck/</guid>
+      
+      <description>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.” ~ The Magicians Nephew - CS Lewis
+Set the scene Detection Engineering is not just about the technical nitty gritty, it almost requres you to be a storyteller
+Detection engineering is inherently a very technical and often abstracted process, but conversely there&amp;rsquo;s a very intricately human part of creating a detection.</description>
+      
+    </item>
     
     <item>
       <title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
@@ -17,6 +26,7 @@
       <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
+      
       <description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
 Appreciate all the feedback.
 SOC https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036
@@ -32,6 +42,7 @@ Investigation https://www.healthknowledge.org.uk/public-health-textbook/disease-
 https://www.mindtools.com/au7v71d/the-johari-window
 A.S.S - Analyst Support System Quality Reads :tm: https://www.freshwaterpublishing.com.au/book/
 https://atulgawande.com/book/the-checklist-manifesto/</description>
+      
     </item>
     
     <item>
@@ -40,6 +51,7 @@ https://atulgawande.com/book/the-checklist-manifesto/</description>
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
+      
       <description>References Thanks for listening :)
 Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
 https://www.afac.com.au/insight/doctrine
@@ -52,6 +64,7 @@ Australian Institute for Disaster Resilience (Australian Emergency Management Li
 https://knowledge.aidr.org.au/collections/handbook-collection/
 The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
 https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
+      
     </item>
     
     <item>
@@ -60,10 +73,12 @@ https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20R
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</guid>
+      
       <description>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”
 The Magicians Nephew
 Set the scene Detection Engineering is equal parts storytelling and equal parts technical.
 Detection engineering is inherently a very technical and often abstracted process, but conversely there&amp;rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)</description>
+      
     </item>
     
     <item>
@@ -72,10 +87,12 @@ Detection engineering is inherently a very technical and often abstracted proces
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</guid>
+      
       <description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
 See here for the details, I shan&amp;rsquo;t bore you again.
 Setting the scene&amp;hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
 For this particular client service accounts are identified with “SRV_ACC” at the start of the username.</description>
+      
     </item>
     
     <item>
@@ -84,10 +101,10 @@ For this particular client service accounts are identified with “SRV_ACC” at
       <pubDate>Sat, 16 May 2020 21:46:26 +1000</pubDate>
       
       <guid>https://archbishop.io/about/</guid>
-      <description>whois archbishop... I like solving problems, and learning new things, I suppose this is where you put that you&amp;rsquo;re a perpetual student and all that jazz.
-Just another dude who likes breaking stuff, just really slowly because I&amp;rsquo;m a bit dumb.
-During the day I work in a Security Operations Center as an Lead Analyst
+      
+      <description>whois archbishop... I like solving problems, and learning new things, I suppose this is where you put that you&amp;rsquo;re a perpetual student and all that jazz. Just another dude who likes breaking stuff, just really slowly because I&amp;rsquo;m a bit dumb. During the day I work in a Security Operations Center as an Lead Analyst
 What I also like is people, so feel free to reach out. I&amp;rsquo;m also on OJ&amp;rsquo;s discord as &amp;ldquo;TheArchbishop&amp;rdquo;.</description>
+      
     </item>
     
     <item>
@@ -96,7 +113,9 @@ What I also like is people, so feel free to reach out. I&amp;rsquo;m also on OJ&
       <pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/how-to-powershell-more-betterer/</guid>
+      
       <description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
+      
     </item>
     
     <item>
@@ -105,8 +124,10 @@ What I also like is people, so feel free to reach out. I&amp;rsquo;m also on OJ&
       <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
       
       <guid>https://archbishop.io/posts/hello/</guid>
+      
       <description>Finally time to revive this, I have decided to start writing more.
 Archbishop</description>
+      
     </item>
     
   </channel>

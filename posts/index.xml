@@ -1,20 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on archbishopsec</title>
-		<link>https://archbishop.io/posts/</link>
-		<description>Recent content in Posts on archbishopsec</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate>
-		<atom:link href="https://archbishop.io/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
-			<link>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</link>
-			<pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
-			
-			<guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
-			<description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
+  <channel>
+    <title>Posts on archbishopsec</title>
+    <link>https://archbishop.io/posts/</link>
+    <description>Recent content in Posts on archbishopsec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Oct 2023 21:00:00 +1000</lastBuildDate><atom:link href="https://archbishop.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Alert Names that Don&#39;t Suck - How to win hearts of SOC Analysts</title>
+      <link>https://archbishop.io/posts/alert-names-that-dont-suck/</link>
+      <pubDate>Sat, 07 Oct 2023 21:00:00 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/alert-names-that-dont-suck/</guid>
+      
+      <description>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.” ~ The Magicians Nephew - CS Lewis
+Set the scene Detection Engineering is not just about the technical nitty gritty, it almost requres you to be a storyteller
+Detection engineering is inherently a very technical and often abstracted process, but conversely there&amp;rsquo;s a very intricately human part of creating a detection.</description>
+      
+    </item>
+    
+    <item>
+      <title>Supporting Analysts Better - SecTalks CBR Sep 2023</title>
+      <link>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</link>
+      <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</guid>
+      
+      <description>Thanks for coming along, here&amp;rsquo;s a collection of resources, some of the graphics, and references from the night.
 Appreciate all the feedback.
 SOC https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036
 https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/
@@ -29,42 +42,17 @@ Investigation https://www.healthknowledge.org.uk/public-health-textbook/disease-
 https://www.mindtools.com/au7v71d/the-johari-window
 A.S.S - Analyst Support System Quality Reads :tm: https://www.freshwaterpublishing.com.au/book/
 https://atulgawande.com/book/the-checklist-manifesto/</description>
-			<content type="html"><![CDATA[<p>Thanks for coming along, here&rsquo;s a collection of resources, some of the graphics, and references from the night.</p>
-<p>Appreciate all the feedback.</p>
-<h2 id="soc">SOC</h2>
-<p><img src="/static/Funnel.png" alt="SOC Funnel"></p>
-<p><a href="https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036">https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036</a></p>
-<p><a href="https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/">https://web.archive.org/web/20220325143601/https://criticaluncertainties.com/2013/07/05/better-wrong-than-vague/</a></p>
-<h2 id="sensitivity-and-specificity">Sensitivity and Specificity</h2>
-<p><img src="/static/Sensitive.png" alt="Sensitivity and Specificity"></p>
-<p>Great video that gets you up to speed quickly</p>
-<p><a href="https://www.youtube.com/watch?v=psELBu7muNY">https://www.youtube.com/watch?v=psELBu7muNY</a></p>
-<p>These ones are super in depth, rewarding if you can stay awake</p>
-<p><a href="https://www.frontiersin.org/articles/10.3389/fpubh.2017.00307/full">https://www.frontiersin.org/articles/10.3389/fpubh.2017.00307/full</a></p>
-<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636062/</a></p>
-<h2 id="triage">Triage</h2>
-<p><img src="/static/ATS.png" alt="ATS"></p>
-<p><a href="https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus">https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus</a></p>
-<p><a href="https://acem.org.au/Content-Sources/Advancing-Emergency-Medicine/Better-Outcomes-for-Patients/Triage">https://acem.org.au/Content-Sources/Advancing-Emergency-Medicine/Better-Outcomes-for-Patients/Triage</a></p>
-<h2 id="investigation">Investigation</h2>
-<p><img src="/static/Tests.png" alt="Screening tests are not diagnostic tests"></p>
-<p><a href="https://www.healthknowledge.org.uk/public-health-textbook/disease-causation-diagnostic/2c-diagnosis-screening/screening-diagnostic-case-finding">https://www.healthknowledge.org.uk/public-health-textbook/disease-causation-diagnostic/2c-diagnosis-screening/screening-diagnostic-case-finding</a></p>
-<p><a href="https://www.mindtools.com/au7v71d/the-johari-window">https://www.mindtools.com/au7v71d/the-johari-window</a></p>
-<h2 id="ass---analyst-support-system">A.S.S - Analyst Support System</h2>
-<p><img src="/static/Support-strat.png" alt="Analyst Support Strategy"></p>
-<h2 id="quality-reads-tm">Quality Reads :tm:</h2>
-<p><a href="https://www.freshwaterpublishing.com.au/book/">https://www.freshwaterpublishing.com.au/book/</a></p>
-<p><a href="https://atulgawande.com/book/the-checklist-manifesto/">https://atulgawande.com/book/the-checklist-manifesto/</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>CyberCon 2023 Incident Management References</title>
-			<link>https://archbishop.io/posts/cybercon-2023-incident-management-references/</link>
-			<pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
-			
-			<guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
-			<description>References Thanks for listening :)
+      
+    </item>
+    
+    <item>
+      <title>CyberCon 2023 Incident Management References</title>
+      <link>https://archbishop.io/posts/cybercon-2023-incident-management-references/</link>
+      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/cybercon-2023-incident-management-references/</guid>
+      
+      <description>References Thanks for listening :)
 Australian Fire Authorities Council for AIIMS related material https://www.afac.com.au/initiative/aiims
 https://www.afac.com.au/insight/doctrine
 Coronial inquests and Reviews https://nla.gov.au/nla.obj-3112961467/view
@@ -76,140 +64,45 @@ Australian Institute for Disaster Resilience (Australian Emergency Management Li
 https://knowledge.aidr.org.au/collections/handbook-collection/
 The ACSC CSIRP Template https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan
 https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</description>
-			<content type="html"><![CDATA[<h1 id="references">References</h1>
-<p>Thanks for listening :)</p>
-<h2 id="australian-fire-authorities-council-for-aiims-related-material">Australian Fire Authorities Council for AIIMS related material</h2>
-<p><a href="https://www.afac.com.au/initiative/aiims">https://www.afac.com.au/initiative/aiims</a></p>
-<p><a href="https://www.afac.com.au/insight/doctrine">https://www.afac.com.au/insight/doctrine</a></p>
-<h2 id="coronial-inquests-and-reviews">Coronial inquests and Reviews</h2>
-<p><a href="https://nla.gov.au/nla.obj-3112961467/view">https://nla.gov.au/nla.obj-3112961467/view</a></p>
-<p><a href="http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf">http://royalcommission.vic.gov.au/finaldocuments/summary/PF/VBRC_Summary_PF.pdf</a></p>
-<p><a href="https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;mode=browse">https://viewer.slv.vic.gov.au/?entity=IE20138510&amp;mode=browse</a></p>
-<p><a href="https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry">https://www.nsw.gov.au/nsw-government/projects-and-initiatives/floodinquiry</a></p>
-<h2 id="australian-journal-of-emergency-management">Australian Journal of Emergency Management</h2>
-<p><a href="https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/">https://knowledge.aidr.org.au/collections/australian-journal-of-emergency-management/</a></p>
-<h2 id="australian-institute-for-disaster-resilience-australian-emergency-management-library-and-handbook-collection">Australian Institute for Disaster Resilience (Australian Emergency Management Library and handbook collection</h2>
-<p><a href="https://knowledge.aidr.org.au/collections/emergency-management-library/">https://knowledge.aidr.org.au/collections/emergency-management-library/</a></p>
-<p><a href="https://knowledge.aidr.org.au/collections/handbook-collection/">https://knowledge.aidr.org.au/collections/handbook-collection/</a></p>
-<h2 id="the-acsc-csirp-template">The ACSC CSIRP Template</h2>
-<p><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan">https://www.cyber.gov.au/acsc/view-all-content/publications/cyber-incident-response-plan</a></p>
-<p><a href="https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf">https://www.cyber.gov.au/sites/default/files/2022-07/ACSC%20Cyber%20Incident%20Response%20Plan%20Guidance_A4.pdf</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Powershell Working With AD and Variables</title>
-			<link>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</link>
-			<pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
-			
-			<guid>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</guid>
-			<description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
+      
+    </item>
+    
+    <item>
+      <title>Powershell Working With AD and Variables</title>
+      <link>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</link>
+      <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</guid>
+      
+      <description>This is going to be the first in a series of posts chronicling my journey with PowerShell:
 See here for the details, I shan&amp;rsquo;t bore you again.
 Setting the scene&amp;hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
 For this particular client service accounts are identified with “SRV_ACC” at the start of the username.</description>
-			<content type="html"><![CDATA[<p>This is going to be the first in a series of posts chronicling my journey with PowerShell:</p>
-<p>See <a href="https://archb1sh0p.github.io/posts/how-to-powershell-more-betterer/">here</a> for the details, I shan&rsquo;t bore you again.</p>
-<h3 id="setting-the-scene">Setting the scene&hellip;</h3>
-<p>I recently found myself in a position with a client where they passed on a request that was: <em>“Our CISO has requested that we go out and find all privileged service accounts”</em></p>
-<p>For this particular client service accounts are identified with “SRV_ACC” at the start of the username. So that does make it slightly easier, but how do we determine a level of privilege?</p>
-<h2 id="get-adgroupmember">Get-AdGroupMember</h2>
-<p>Microsoft have a lovely collection of PowerShell cmdlets that you can install by adding it as feature in Windows or by <a href="https://support.microsoft.com/en-au/help/2693643/remote-server-administration-tools-rsat-for-windows-operating-systems">downloading and installing the package</a></p>
-<p>After some rumaging around on the <a href="https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-adgroupmember">Get-AdGroupMember Docs Page</a> I found this handy dandy paramater:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">-Recursive
-</code></pre></div><p>-Recursive <em>Specifies that the cmdlet get all members in the hierarchy of a group that do not contain child objects .If the specified group does not have any members, then nothing is returned</em></p>
-<p>Perfect This is great, I can just:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-AdGroupMember -Identity <span style="color:#e6db74">&#34;Domain Admins&#34;</span> -Recursive | Where-Object name <span style="color:#f92672">-Like</span> <span style="color:#e6db74">&#34;SVC*&#34;</span>
-</code></pre></div><p>This will give me an output similar to this (but only for service accounts):</p>
-<p><img src="/static/pwrshell-screen1.png" alt="Powershell Screenshot"></p>
-<p>This was good, this is what the client wanted, but I wanted to go further and maybe make it easier for myself and maybe colleagues to run again.</p>
-<p>All Builtin AD groups have an initial security identifier of S-1-5-32 and S-1-5-21. <a href="https://support.microsoft.com/en-au/help/243330/well-known-security-identifiers-in-windows-operating-systems">Here is a list of all well-known security identifiers in Windows operating systems</a>. Enumerating all members of these groups is a great starting place to identify privileged. However not all of them give privileged access. You can see them by running</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-ADGroup -ResultSetSize $null -Filter * -Properties GroupType |Where-Object {$_.SID <span style="color:#f92672">-like</span> <span style="color:#e6db74">&#34;S-1-5-32-*&#34;</span>} | <span style="color:#66d9ef">foreach</span> {$_.name}
-</code></pre></div><p>Sean Metcalf has some great <a href="https://adsecurity.org/?p=3700">resources</a> about groups that are important in active directory, and you should absolutely go and read everything on his site as he is a proper AD wizard.</p>
-<p><em>Note: AD groups can be provisioned administrative access as part of group policy. ie. adding certain groups to administrators on servers or computers, but this was not in scope for this work, so it was not explored. Probably a more suitable task for something like bloodhound, I wanted to keep this pretty simple for now.</em></p>
-<h3 id="brief-intro-to-powershell-variables">Brief intro to PowerShell variables</h3>
-<h3 id="regular-variables">Regular Variables</h3>
-<p>In a nutshell, a variable is just a place in memory to store information. Hence the name, a variable can be whatever you want it to be and in PowerShell it can contain several different types of values. It can contain a large one liner, or it can contain the output of several commands chained together. Great video explaining variables <a href="https://www.youtube.com/watch?v=G41G_PEWFjE">here</a></p>
-<p>Variables in PowerShell are set using $x = yz, For example. I can set the output of a command to be CoolVariable:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$CoolVariable = Get-Process
-</code></pre></div><p>That will store the output of the Get-Process command in $CoolVariable.</p>
-<p>One thing that is important to remember is variable type. Variables can contain many different types. You can determine the variable type by using the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$CoolVariable = Get-Process
-$CoolVariable.GetType().FullName
-</code></pre></div><p>This will show you for the example above, that we are working with a type of “System.Object” (which is technically an array)</p>
-<p>There are many other types. Integers, strings and booleans can all be stored in a variable. If you want to set the type of variable you are using you can set it like so:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#66d9ef">[string]</span>$CoolVariable = <span style="color:#e6db74">&#34;FancyString&#34;</span>
-</code></pre></div><h3 id="pipeline-variables-_">Pipeline Variables ($_)</h3>
-<p>PowerShell is very powerful due to it’s usage of objects (vs lets say bash which is mainly manipulation of text). What we use above is called a pipeline variable. It’s in essence a time saving venture. It saves us from having to declare a variable and just treats information in the pipeline as a variable.</p>
-<p>Heres an example without using a pipeline variable:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$process = get-process$Processes | Where-Object {$Processes.ProcessName -contain <span style="color:#e6db74">&#34;winlogon&#34;</span>}
-</code></pre></div><p>And here is with a pipeline variable</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-Process | Where-Object {$_.ProcessName <span style="color:#f92672">-contains</span> <span style="color:#e6db74">&#34;winlogon&#34;</span>}
-</code></pre></div><h3 id="arrays-or-list-of-items">Arrays or list of items</h3>
-<p>An array is a fixed size collection of elements, a good way to think about it is they are like a collection of variables or objects.</p>
-<p>Very similar to how a standard variable works, but you separate each item in the variable with commas.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Groups = <span style="color:#e6db74">&#34;Administrators&#34;</span>,<span style="color:#e6db74">&#34;Users&#34;</span>, <span style="color:#e6db74">&#34;Remote Desktop Users&#34;</span>
-</code></pre></div><h3 id="solving-our-problem">Solving our problem</h3>
-<p>So the best way to enumerate all the relevant groups was to:</p>
-<ul>
-<li>Create array with groups that are &ldquo;privileged&rdquo;</li>
-<li>Loop through get-adgroupmember -recursive to get all the members of all the groups</li>
-</ul>
-<p>This ended up looking like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$PrivilegeGroups = <span style="color:#e6db74">&#34;Administrators&#34;</span>,<span style="color:#e6db74">&#34;DNSadmins&#34;</span>, <span style="color:#e6db74">&#34;Account Operators&#34;</span>, <span style="color:#e6db74">&#34;Server Operators&#34;</span>, <span style="color:#e6db74">&#34;Schema Admins&#34;</span>
-$PrivilegeUsers = <span style="color:#66d9ef">foreach</span> ($group <span style="color:#66d9ef">in</span> $PrivilegeGroups) 
-{
-    Get-ADGroupMember $group -Recursive | Select-Object name
-
-}
-$PrivilegeUsers | Where-Object name <span style="color:#f92672">-Like</span> <span style="color:#e6db74">&#34;srv*&#34;</span>
-</code></pre></div><p><a href="https://github.com/archb1sh0p/powershell">https://github.com/archb1sh0p/powershell</a></p>
-<p>(probably best to work with the code here on GitHub, as this code here on the site will not be updated)</p>
-<h2 id="up-next">Up next</h2>
-<p>Further reading</p>
-<ul>
-<li>Highly recommend the PowerShell Cookbook by <a href="https://twitter.com/lee_holmes">Lee Holmes</a> However is is quite exhaustive, but it’s an excellent resource</li>
-<li><a href="https://blog.netwrix.com/2018/10/04/powershell-variables-and-arrays/">Great Article exploring Variables and Arrays in powershell</a></li>
-</ul>
-<p>Thanks for reading</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>How to PowerShell More Betterer</title>
-			<link>https://archbishop.io/posts/how-to-powershell-more-betterer/</link>
-			<pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
-			
-			<guid>https://archbishop.io/posts/how-to-powershell-more-betterer/</guid>
-			<description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
-			<content type="html"><![CDATA[<h1 id="why">Why?</h1>
-<h3 id="there-are-thousands-of-blogs-posts-and-resources-out-there-already-about-powershell-did-we-really-some-other-numpty-sharing-their-thoughts">There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts?</h3>
-<p>This is the question I asked myself when the thought first flashed across my mind, &ldquo;I could make a blog&rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&rsquo;t have anything new to share or any cool tools to release. I kind of drew a blank about what to write about.</p>
-<p>So why did I pick PowerShell&hellip;</p>
-<p>There are a few reasons I&rsquo;m going to debut with the topic of PowerShell.</p>
-<ul>
-<li>Firstly, I&rsquo;m not very good at PowerShell. I find for me that writing something down and attempting to explain it to others is a pretty good guarantee that I understand something. This will also have the benefit of tracking my progress over time.</li>
-<li>Secondly, I want to share knowledge. I don&rsquo;t know a lot, but I hope that I might be able to explain something in a way that perhaps helps someone understand something better. Even if just one person benefits then I consider it a win. Maybe I might even teach someone something new, who knows.</li>
-<li>Thirdly, I really like PowerShell as a tool, and have found it to be very useful to me in my job. So much tooling is built with PowerShell, from <a href="https://github.com/EmpireProject/Empire">C2 frameworks</a> to working with any Microsoft Product (including <a href="https://docs.microsoft.com/en-us/powershell/azure/?view=azps-3.8.0">Azure</a> and O365). It is not the be all and end all, but I have found it to have excellent documentation with a large community.</li>
-<li>Bonus reason. Also, given how a lot of PowerShell is built and well integrated around C# and .Net I have found it a bit of gateway drug to C# (also  <a href="https://twitter.com/TheColonial">OJ&rsquo;s</a> influence <a href="https://twitter.com/TheColonial"></a>and his streams of building a <a href="https://github.com/OJ/clr-meterpreter">CLR Meterpreter</a>), I have a goal of further down the road teaching myself more and more C#</li>
-</ul>
-<p>I hope this will be a productive venture. For you, the reader, and also for me.</p>
-<p>Only time will tell&hellip;</p>
-<p>Thanks</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Hello</title>
-			<link>https://archbishop.io/posts/hello/</link>
-			<pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
-			
-			<guid>https://archbishop.io/posts/hello/</guid>
-			<description>Finally time to revive this, I have decided to start writing more.
+      
+    </item>
+    
+    <item>
+      <title>How to PowerShell More Betterer</title>
+      <link>https://archbishop.io/posts/how-to-powershell-more-betterer/</link>
+      <pubDate>Sat, 16 May 2020 21:39:49 +1000</pubDate>
+      
+      <guid>https://archbishop.io/posts/how-to-powershell-more-betterer/</guid>
+      
+      <description>Why? There are thousands of blogs, posts and resources out there already about PowerShell, did we really some other numpty sharing their thoughts? This is the question I asked myself when the thought first flashed across my mind, &amp;ldquo;I could make a blog&amp;rdquo;. Making a blog is pretty easy these days, but apparently an important part of having a blog is actually having content on it, and given that I don&amp;rsquo;t have anything new to share or any cool tools to release.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://archbishop.io/posts/hello/</link>
+      <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
+      
+      <guid>https://archbishop.io/posts/hello/</guid>
+      
+      <description>Finally time to revive this, I have decided to start writing more.
 Archbishop</description>
-			<content type="html"><![CDATA[<p>Finally time to revive this, I have decided to start writing more.</p>
-<p>Archbishop</p>
-]]></content>
-		</item>
-		
-	</channel>
+      
+    </item>
+    
+  </channel>
 </rss>

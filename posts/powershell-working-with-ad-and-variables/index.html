@@ -1,142 +1,257 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta itemprop="name" content="Powershell Working With AD and Variables">
-<meta itemprop="description" content="This is going to be the first in a series of posts chronicling my journey with PowerShell:
-See here for the details, I shan&rsquo;t bore you again.
-Setting the scene&hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
-For this particular client service accounts are identified with “SRV_ACC” at the start of the username.">
-<meta itemprop="datePublished" content="2020-05-18T22:28:47&#43;10:00" />
-<meta itemprop="dateModified" content="2020-05-18T22:28:47&#43;10:00" />
-<meta itemprop="wordCount" content="845">
+<title itemprop="name">Powershell Working With AD and Variables | archbishopsec</title>
+<meta property="og:title" content="Powershell Working With AD and Variables | archbishopsec" />
+<meta name="twitter:title" content="Powershell Working With AD and Variables | archbishopsec" />
+<meta itemprop="name" content="Powershell Working With AD and Variables | archbishopsec" />
+<meta name="application-name" content="Powershell Working With AD and Variables | archbishopsec" />
+<meta property="og:site_name" content="" />
 
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
 
-
-<meta itemprop="keywords" content="powershell,active directory," /><meta property="og:title" content="Powershell Working With AD and Variables" />
-<meta property="og:description" content="This is going to be the first in a series of posts chronicling my journey with PowerShell:
-See here for the details, I shan&rsquo;t bore you again.
-Setting the scene&hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
-For this particular client service accounts are identified with “SRV_ACC” at the start of the username." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://archbishop.io/posts/powershell-working-with-ad-and-variables/" />
-<meta property="article:published_time" content="2020-05-18T22:28:47+10:00" />
-<meta property="article:modified_time" content="2020-05-18T22:28:47+10:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Powershell Working With AD and Variables"/>
-<meta name="twitter:description" content="This is going to be the first in a series of posts chronicling my journey with PowerShell:
-See here for the details, I shan&rsquo;t bore you again.
-Setting the scene&hellip; I recently found myself in a position with a client where they passed on a request that was: “Our CISO has requested that we go out and find all privileged service accounts”
-For this particular client service accounts are identified with “SRV_ACC” at the start of the username."/>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/favicon.ico">
-
-	<title>Powershell Working With AD and Variables</title>
-	<link rel="stylesheet" href="https://archbishop.io/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
-	
-</head>
-
-<body id="page">
-	
-	<header id="site-header" class="animated slideInUp faster">
-		<div class="hdr-wrapper section-inner">
-			<div class="hdr-left">
-				<div class="site-branding">
-					<a href="https://archbishop.io/">archbishopsec</a>
-				</div>
-				<nav class="site-nav hide-in-mobile">
-					
-				<a href="https://archbishop.io/posts/">Posts</a>
-				<a href="https://archbishop.io/about/">About</a>
-
-				</nav>
-			</div>
-			<div class="hdr-right hdr-icons">
-				<button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
-			</div>
-		</div>
-	</header>
-	<div id="mobile-menu" class="animated fast">
-		<ul>
-			<li><a href="https://archbishop.io/posts/">Posts</a></li>
-			<li><a href="https://archbishop.io/about/">About</a></li>
-		</ul>
-	</div>
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
 
 
-	<main class="site-main section-inner animated fadeIn faster">
-		<article class="thin">
-			<header class="post-header">
-				<div class="post-meta"><span>18 May, 2020</span></div>
-				<h1>Powershell Working With AD and Variables</h1>
-			</header>
-			<div class="content">
-				<p>This is going to be the first in a series of posts chronicling my journey with PowerShell:</p>
+
+  <meta itemprop="image" content="https://archbishop.io/" />
+  <meta property="og:image" content="https://archbishop.io/" />
+  <meta name="twitter:image" content="https://archbishop.io/" />
+  <meta name="twitter:image:src" content="https://archbishop.io/" />
+
+
+
+
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2020-05-18T22:28:47&#43;1000 />
+    <meta property="article:published_time" content=2020-05-18T22:28:47&#43;1000 />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Powershell Working With AD and Variables",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2020-05-18",
+        "description": "",
+        "wordCount":  845 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2020-05-18",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "archbishopsec"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.118.2">
+
+    
+
+    <link rel="canonical" href="https://archbishop.io/posts/powershell-working-with-ad-and-variables/">
+    <link href="/style.min.79ee4530e2218018d2c114e16552697a0e232ecbf3214e8103a24d37cf0225b3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://archbishop.io/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    </head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://archbishop.io/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Powershell Working With AD and Variables</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2020-05-18T22:28:47&#43;10:00" itemprop="datePublished"> May 18, 2020 </time>
+                </div>
+                
+            </header>
+                <details class="toc">
+                    <summary><b></b></summary>
+                    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#setting-the-scene">Setting the scene&hellip;</a></li>
+      </ul>
+    </li>
+    <li><a href="#get-adgroupmember">Get-AdGroupMember</a>
+      <ul>
+        <li><a href="#brief-intro-to-powershell-variables">Brief intro to PowerShell variables</a></li>
+        <li><a href="#regular-variables">Regular Variables</a></li>
+        <li><a href="#pipeline-variables-_">Pipeline Variables ($_)</a></li>
+        <li><a href="#arrays-or-list-of-items">Arrays or list of items</a></li>
+        <li><a href="#solving-our-problem">Solving our problem</a></li>
+      </ul>
+    </li>
+    <li><a href="#up-next">Up next</a></li>
+  </ul>
+</nav>
+                </details>
+                <div class="page-content">
+                <p>This is going to be the first in a series of posts chronicling my journey with PowerShell:</p>
 <p>See <a href="https://archb1sh0p.github.io/posts/how-to-powershell-more-betterer/">here</a> for the details, I shan&rsquo;t bore you again.</p>
-<h3 id="setting-the-scene">Setting the scene&hellip;<a href="#setting-the-scene" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<h3 id="setting-the-scene">Setting the scene&hellip;</h3>
 <p>I recently found myself in a position with a client where they passed on a request that was: <em>“Our CISO has requested that we go out and find all privileged service accounts”</em></p>
 <p>For this particular client service accounts are identified with “SRV_ACC” at the start of the username. So that does make it slightly easier, but how do we determine a level of privilege?</p>
-<h2 id="get-adgroupmember">Get-AdGroupMember<a href="#get-adgroupmember" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="get-adgroupmember">Get-AdGroupMember</h2>
 <p>Microsoft have a lovely collection of PowerShell cmdlets that you can install by adding it as feature in Windows or by <a href="https://support.microsoft.com/en-au/help/2693643/remote-server-administration-tools-rsat-for-windows-operating-systems">downloading and installing the package</a></p>
 <p>After some rumaging around on the <a href="https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-adgroupmember">Get-AdGroupMember Docs Page</a> I found this handy dandy paramater:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">-Recursive
-</code></pre></div><p>-Recursive <em>Specifies that the cmdlet get all members in the hierarchy of a group that do not contain child objects .If the specified group does not have any members, then nothing is returned</em></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">-Recursive</span>
+</span></span></code></pre></div><p>-Recursive <em>Specifies that the cmdlet get all members in the hierarchy of a group that do not contain child objects .If the specified group does not have any members, then nothing is returned</em></p>
 <p>Perfect This is great, I can just:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-AdGroupMember -Identity <span style="color:#e6db74">&#34;Domain Admins&#34;</span> -Recursive | Where-Object name <span style="color:#f92672">-Like</span> <span style="color:#e6db74">&#34;SVC*&#34;</span>
-</code></pre></div><p>This will give me an output similar to this (but only for service accounts):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Get-AdGroupMember</span> <span class="n">-Identity</span> <span class="s2">&#34;Domain Admins&#34;</span> <span class="n">-Recursive</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="n">name</span> <span class="o">-Like</span> <span class="s2">&#34;SVC*&#34;</span>
+</span></span></code></pre></div><p>This will give me an output similar to this (but only for service accounts):</p>
 <p><img src="/static/pwrshell-screen1.png" alt="Powershell Screenshot"></p>
 <p>This was good, this is what the client wanted, but I wanted to go further and maybe make it easier for myself and maybe colleagues to run again.</p>
 <p>All Builtin AD groups have an initial security identifier of S-1-5-32 and S-1-5-21. <a href="https://support.microsoft.com/en-au/help/243330/well-known-security-identifiers-in-windows-operating-systems">Here is a list of all well-known security identifiers in Windows operating systems</a>. Enumerating all members of these groups is a great starting place to identify privileged. However not all of them give privileged access. You can see them by running</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-ADGroup -ResultSetSize $null -Filter * -Properties GroupType |Where-Object {$_.SID <span style="color:#f92672">-like</span> <span style="color:#e6db74">&#34;S-1-5-32-*&#34;</span>} | <span style="color:#66d9ef">foreach</span> {$_.name}
-</code></pre></div><p>Sean Metcalf has some great <a href="https://adsecurity.org/?p=3700">resources</a> about groups that are important in active directory, and you should absolutely go and read everything on his site as he is a proper AD wizard.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Get-ADGroup</span> <span class="n">-ResultSetSize</span> <span class="vm">$null</span> <span class="n">-Filter</span> <span class="p">*</span> <span class="n">-Properties</span> <span class="n">GroupType</span> <span class="p">|</span><span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="py">SID</span> <span class="o">-like</span> <span class="s2">&#34;S-1-5-32-*&#34;</span><span class="p">}</span> <span class="p">|</span> <span class="k">foreach</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">name</span><span class="p">}</span>
+</span></span></code></pre></div><p>Sean Metcalf has some great <a href="https://adsecurity.org/?p=3700">resources</a> about groups that are important in active directory, and you should absolutely go and read everything on his site as he is a proper AD wizard.</p>
 <p><em>Note: AD groups can be provisioned administrative access as part of group policy. ie. adding certain groups to administrators on servers or computers, but this was not in scope for this work, so it was not explored. Probably a more suitable task for something like bloodhound, I wanted to keep this pretty simple for now.</em></p>
-<h3 id="brief-intro-to-powershell-variables">Brief intro to PowerShell variables<a href="#brief-intro-to-powershell-variables" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<h3 id="regular-variables">Regular Variables<a href="#regular-variables" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<h3 id="brief-intro-to-powershell-variables">Brief intro to PowerShell variables</h3>
+<h3 id="regular-variables">Regular Variables</h3>
 <p>In a nutshell, a variable is just a place in memory to store information. Hence the name, a variable can be whatever you want it to be and in PowerShell it can contain several different types of values. It can contain a large one liner, or it can contain the output of several commands chained together. Great video explaining variables <a href="https://www.youtube.com/watch?v=G41G_PEWFjE">here</a></p>
 <p>Variables in PowerShell are set using $x = yz, For example. I can set the output of a command to be CoolVariable:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$CoolVariable = Get-Process
-</code></pre></div><p>That will store the output of the Get-Process command in $CoolVariable.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$CoolVariable</span> <span class="p">=</span> <span class="nb">Get-Process</span>
+</span></span></code></pre></div><p>That will store the output of the Get-Process command in $CoolVariable.</p>
 <p>One thing that is important to remember is variable type. Variables can contain many different types. You can determine the variable type by using the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$CoolVariable = Get-Process
-$CoolVariable.GetType().FullName
-</code></pre></div><p>This will show you for the example above, that we are working with a type of “System.Object” (which is technically an array)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$CoolVariable</span> <span class="p">=</span> <span class="nb">Get-Process</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$CoolVariable</span><span class="p">.</span><span class="py">GetType</span><span class="p">().</span><span class="py">FullName</span>
+</span></span></code></pre></div><p>This will show you for the example above, that we are working with a type of “System.Object” (which is technically an array)</p>
 <p>There are many other types. Integers, strings and booleans can all be stored in a variable. If you want to set the type of variable you are using you can set it like so:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#66d9ef">[string]</span>$CoolVariable = <span style="color:#e6db74">&#34;FancyString&#34;</span>
-</code></pre></div><h3 id="pipeline-variables-_">Pipeline Variables ($_)<a href="#pipeline-variables-_" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="p">[</span><span class="no">string</span><span class="p">]</span><span class="nv">$CoolVariable</span> <span class="p">=</span> <span class="s2">&#34;FancyString&#34;</span>
+</span></span></code></pre></div><h3 id="pipeline-variables-_">Pipeline Variables ($_)</h3>
 <p>PowerShell is very powerful due to it’s usage of objects (vs lets say bash which is mainly manipulation of text). What we use above is called a pipeline variable. It’s in essence a time saving venture. It saves us from having to declare a variable and just treats information in the pipeline as a variable.</p>
 <p>Heres an example without using a pipeline variable:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$process = get-process$Processes | Where-Object {$Processes.ProcessName -contain <span style="color:#e6db74">&#34;winlogon&#34;</span>}
-</code></pre></div><p>And here is with a pipeline variable</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-Process | Where-Object {$_.ProcessName <span style="color:#f92672">-contains</span> <span style="color:#e6db74">&#34;winlogon&#34;</span>}
-</code></pre></div><h3 id="arrays-or-list-of-items">Arrays or list of items<a href="#arrays-or-list-of-items" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$process</span> <span class="p">=</span> <span class="nb">get-process</span><span class="nv">$Processes</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$Processes</span><span class="p">.</span><span class="py">ProcessName</span> <span class="n">-contain</span> <span class="s2">&#34;winlogon&#34;</span><span class="p">}</span>
+</span></span></code></pre></div><p>And here is with a pipeline variable</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Get-Process</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="py">ProcessName</span> <span class="o">-contains</span> <span class="s2">&#34;winlogon&#34;</span><span class="p">}</span>
+</span></span></code></pre></div><h3 id="arrays-or-list-of-items">Arrays or list of items</h3>
 <p>An array is a fixed size collection of elements, a good way to think about it is they are like a collection of variables or objects.</p>
 <p>Very similar to how a standard variable works, but you separate each item in the variable with commas.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Groups = <span style="color:#e6db74">&#34;Administrators&#34;</span>,<span style="color:#e6db74">&#34;Users&#34;</span>, <span style="color:#e6db74">&#34;Remote Desktop Users&#34;</span>
-</code></pre></div><h3 id="solving-our-problem">Solving our problem<a href="#solving-our-problem" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">Groups</span> <span class="p">=</span> <span class="s2">&#34;Administrators&#34;</span><span class="p">,</span><span class="s2">&#34;Users&#34;</span><span class="p">,</span> <span class="s2">&#34;Remote Desktop Users&#34;</span>
+</span></span></code></pre></div><h3 id="solving-our-problem">Solving our problem</h3>
 <p>So the best way to enumerate all the relevant groups was to:</p>
 <ul>
 <li>Create array with groups that are &ldquo;privileged&rdquo;</li>
 <li>Loop through get-adgroupmember -recursive to get all the members of all the groups</li>
 </ul>
 <p>This ended up looking like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$PrivilegeGroups = <span style="color:#e6db74">&#34;Administrators&#34;</span>,<span style="color:#e6db74">&#34;DNSadmins&#34;</span>, <span style="color:#e6db74">&#34;Account Operators&#34;</span>, <span style="color:#e6db74">&#34;Server Operators&#34;</span>, <span style="color:#e6db74">&#34;Schema Admins&#34;</span>
-$PrivilegeUsers = <span style="color:#66d9ef">foreach</span> ($group <span style="color:#66d9ef">in</span> $PrivilegeGroups) 
-{
-    Get-ADGroupMember $group -Recursive | Select-Object name
-
-}
-$PrivilegeUsers | Where-Object name <span style="color:#f92672">-Like</span> <span style="color:#e6db74">&#34;srv*&#34;</span>
-</code></pre></div><p><a href="https://github.com/archb1sh0p/powershell">https://github.com/archb1sh0p/powershell</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$PrivilegeGroups</span> <span class="p">=</span> <span class="s2">&#34;Administrators&#34;</span><span class="p">,</span><span class="s2">&#34;DNSadmins&#34;</span><span class="p">,</span> <span class="s2">&#34;Account Operators&#34;</span><span class="p">,</span> <span class="s2">&#34;Server Operators&#34;</span><span class="p">,</span> <span class="s2">&#34;Schema Admins&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$PrivilegeUsers</span> <span class="p">=</span> <span class="k">foreach</span> <span class="p">(</span><span class="nv">$group</span> <span class="k">in</span> <span class="nv">$PrivilegeGroups</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Get-ADGroupMember</span> <span class="nv">$group</span> <span class="n">-Recursive</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$PrivilegeUsers</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="n">name</span> <span class="o">-Like</span> <span class="s2">&#34;srv*&#34;</span>
+</span></span></code></pre></div><p><a href="https://github.com/archb1sh0p/powershell">https://github.com/archb1sh0p/powershell</a></p>
 <p>(probably best to work with the code here on GitHub, as this code here on the site will not be updated)</p>
-<h2 id="up-next">Up next<a href="#up-next" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="up-next">Up next</h2>
 <p>Further reading</p>
 <ul>
 <li>Highly recommend the PowerShell Cookbook by <a href="https://twitter.com/lee_holmes">Lee Holmes</a> However is is quite exhaustive, but it’s an excellent resource</li>
@@ -144,40 +259,61 @@ $PrivilegeUsers | Where-Object name <span style="color:#f92672">-Like</span> <sp
 </ul>
 <p>Thanks for reading</p>
 
-			</div>
-			<hr class="post-end">
-			<footer class="post-info">
-				<p>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://archbishop.io/tags/powershell">powershell</a></span><span class="tag"><a href="https://archbishop.io/tags/active-directory">active directory</a></span>
-				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>845 Words</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-05-18 22:28</p>
-			</footer>
-		</article>
-		<div class="post-nav thin">
-			<a class="next-post" href="https://archbishop.io/posts/cybercon-2023-incident-management-references/">
-				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>CyberCon 2023 Incident Management References</span>
-			</a>
-			<a class="prev-post" href="https://archbishop.io/posts/how-to-powershell-more-betterer/">
-				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>How to PowerShell More Betterer</span>
-			</a>
-		</div>
-		<div id="comments" class="thin">
+            </div>
+        </article></main>
 </div>
-	</main>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
 
-	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2023 <a href="https://archbishop.io/"></a></p>
-		<p>
-			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://archbishop.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
-		</p>
-	</footer>
+    <div class="footer_social-icons">
+<a href="https://github.com/archb1sh0p" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://infosec.exchange/@archbishop" target="_blank" rel="noopener noreferrer me"
+    title="Mastodon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M21.58 13.913c-.29 1.469-2.592 3.121-5.238 3.396-1.379.184-2.737.368-4.185.276-2.368-.092-4.237-.551-4.237-.551 0 .184.014.459.043.643.308 2.294 2.317 2.478 4.22 2.57 1.922 0 3.633-.46 3.633-.46l.079 1.653s-1.344.734-3.738.918c-1.32.091-2.96-.092-4.869-.551-4.14-1.102-4.853-5.507-4.961-10.005-.034-1.285-.013-2.57-.013-3.58 0-4.589 3-5.966 3-5.966 1.513-.734 4.11-1.01 6.808-1.01h.067c2.699 0 5.296.276 6.81 1.01 0 0 3 1.377 3 5.967 0 0 .037 3.304-.419 5.69"
+        stroke="currentColor" />
+    <path
+        d="M17.832 8.633v5h-1.978V8.78c0-1.023-.43-1.542-1.29-1.542-.95 0-1.427.616-1.427 1.834v2.655H11.17V9.072c0-1.218-.476-1.834-1.427-1.834-.86 0-1.29.52-1.29 1.542v4.852H6.475V8.633c0-1.022.26-1.834.782-2.434.538-.6 1.243-.909 2.118-.909 1.012 0 1.779.39 2.286 1.169l.492.827.493-.827c.507-.78 1.274-1.169 2.286-1.169.875 0 1.58.308 2.118.909.522.6.782 1.412.782 2.434"
+        fill="currentColor" stroke="none" />
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2023 Tim.
+        
+    </small>
+</footer>
 
 
 
-	<script src="https://archbishop.io/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
-	
+
+
+
+
+    
+    <script src="https://archbishop.io/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+
+    
 
 </body>
-
 </html>

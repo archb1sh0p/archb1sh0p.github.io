@@ -1,114 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://archbishop.io/posts/</loc>
-    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/references/</loc>
-    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/secops/</loc>
-    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</loc>
-    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/</loc>
-    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/talks/</loc>
-    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/communication/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/posts/cybercon-2023-incident-management-references/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/detectionengineering/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/drafts/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/incidentmanagement/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/whatsinaname/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/active-directory/</loc>
-    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/tags/powershell/</loc>
-    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</loc>
-    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://archbishop.io/about/</loc>
-    <lastmod>2020-05-16T21:46:26+10:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://archbishop.io/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/communication/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/detectionengineering/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/posts/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/whatsinaname/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/posts/alert-names-that-dont-suck/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/references/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/secops/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/posts/supporting-analysts-better-sectalks-references/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/talks/</loc>
+    <lastmod>2023-09-14T21:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/posts/cybercon-2023-incident-management-references/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/drafts/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/incidentmanagement/</loc>
+    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/active-directory/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/tags/powershell/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/posts/powershell-working-with-ad-and-variables/</loc>
+    <lastmod>2020-05-18T22:28:47+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/about/</loc>
     <lastmod>2020-05-16T21:46:26+10:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://archbishop.io/posts/how-to-powershell-more-betterer/</loc>
     <lastmod>2020-05-16T21:39:49+10:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://archbishop.io/posts/hello/</loc>
     <lastmod>2020-05-15T21:59:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://archbishop.io/tags/welcome/</loc>
     <lastmod>2020-05-15T21:59:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://archbishop.io/categories/</loc>
   </url>
-  
 </urlset>

@@ -6,10 +6,39 @@
     <description>Recent content in Tags on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Sep 2023 21:39:49 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Oct 2023 21:00:00 +1000</lastBuildDate><atom:link href="https://archbishop.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>communication</title>
+      <link>https://archbishop.io/tags/communication/</link>
+      <pubDate>Sat, 07 Oct 2023 21:00:00 +1000</pubDate>
+      
+      <guid>https://archbishop.io/tags/communication/</guid>
+      
+      <description></description>
+      
+    </item>
     
-	<atom:link href="https://archbishop.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DetectionEngineering</title>
+      <link>https://archbishop.io/tags/detectionengineering/</link>
+      <pubDate>Sat, 07 Oct 2023 21:00:00 +1000</pubDate>
+      
+      <guid>https://archbishop.io/tags/detectionengineering/</guid>
+      
+      <description></description>
+      
+    </item>
     
+    <item>
+      <title>whatsinaname</title>
+      <link>https://archbishop.io/tags/whatsinaname/</link>
+      <pubDate>Sat, 07 Oct 2023 21:00:00 +1000</pubDate>
+      
+      <guid>https://archbishop.io/tags/whatsinaname/</guid>
+      
+      <description></description>
+      
+    </item>
     
     <item>
       <title>References</title>
@@ -17,7 +46,9 @@
       <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/tags/references/</guid>
+      
       <description></description>
+      
     </item>
     
     <item>
@@ -26,7 +57,9 @@
       <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/tags/secops/</guid>
+      
       <description></description>
+      
     </item>
     
     <item>
@@ -35,25 +68,9 @@
       <pubDate>Thu, 14 Sep 2023 21:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/tags/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>communication</title>
-      <link>https://archbishop.io/tags/communication/</link>
-      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishop.io/tags/communication/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>DetectionEngineering</title>
-      <link>https://archbishop.io/tags/detectionengineering/</link>
-      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishop.io/tags/detectionengineering/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -62,16 +79,9 @@
       <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
       <guid>https://archbishop.io/tags/incidentmanagement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>whatsinaname</title>
-      <link>https://archbishop.io/tags/whatsinaname/</link>
-      <pubDate>Mon, 20 Mar 2023 15:39:49 +1000</pubDate>
       
-      <guid>https://archbishop.io/tags/whatsinaname/</guid>
       <description></description>
+      
     </item>
     
     <item>
@@ -80,7 +90,9 @@
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
       <guid>https://archbishop.io/tags/active-directory/</guid>
+      
       <description></description>
+      
     </item>
     
     <item>
@@ -89,7 +101,9 @@
       <pubDate>Mon, 18 May 2020 22:28:47 +1000</pubDate>
       
       <guid>https://archbishop.io/tags/powershell/</guid>
+      
       <description></description>
+      
     </item>
     
     <item>
@@ -98,7 +112,9 @@
       <pubDate>Fri, 15 May 2020 21:59:20 +0000</pubDate>
       
       <guid>https://archbishop.io/tags/welcome/</guid>
+      
       <description></description>
+      
     </item>
     
   </channel>

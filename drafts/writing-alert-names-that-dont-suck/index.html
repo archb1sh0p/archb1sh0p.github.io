@@ -1,87 +1,145 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta itemprop="name" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck">
-<meta itemprop="description" content="“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”
-The Magicians Nephew
-Set the scene Detection Engineering is equal parts storytelling and equal parts technical.
-Detection engineering is inherently a very technical and often abstracted process, but conversely there&rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)">
-<meta itemprop="datePublished" content="2023-03-20T15:39:49&#43;10:00" />
-<meta itemprop="dateModified" content="2023-03-20T15:39:49&#43;10:00" />
-<meta itemprop="wordCount" content="1778">
+<title itemprop="name">How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck | archbishopsec</title>
+<meta property="og:title" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck | archbishopsec" />
+<meta name="twitter:title" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck | archbishopsec" />
+<meta itemprop="name" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck | archbishopsec" />
+<meta name="application-name" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck | archbishopsec" />
+<meta property="og:site_name" content="" />
 
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
 
-
-<meta itemprop="keywords" content="DetectionEngineering,communication,whatsinaname," /><meta property="og:title" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck" />
-<meta property="og:description" content="“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”
-The Magicians Nephew
-Set the scene Detection Engineering is equal parts storytelling and equal parts technical.
-Detection engineering is inherently a very technical and often abstracted process, but conversely there&rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://archbishop.io/drafts/writing-alert-names-that-dont-suck/" />
-<meta property="article:published_time" content="2023-03-20T15:39:49+10:00" />
-<meta property="article:modified_time" content="2023-03-20T15:39:49+10:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck"/>
-<meta name="twitter:description" content="“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”
-The Magicians Nephew
-Set the scene Detection Engineering is equal parts storytelling and equal parts technical.
-Detection engineering is inherently a very technical and often abstracted process, but conversely there&rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)"/>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/favicon.ico">
-
-	<title>How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck</title>
-	<link rel="stylesheet" href="https://archbishop.io/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
-	
-</head>
-
-<body id="page">
-	
-	<header id="site-header" class="animated slideInUp faster">
-		<div class="hdr-wrapper section-inner">
-			<div class="hdr-left">
-				<div class="site-branding">
-					<a href="https://archbishop.io/">archbishopsec</a>
-				</div>
-				<nav class="site-nav hide-in-mobile">
-					
-				<a href="https://archbishop.io/posts/">Posts</a>
-				<a href="https://archbishop.io/about/">About</a>
-
-				</nav>
-			</div>
-			<div class="hdr-right hdr-icons">
-				<button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
-			</div>
-		</div>
-	</header>
-	<div id="mobile-menu" class="animated fast">
-		<ul>
-			<li><a href="https://archbishop.io/posts/">Posts</a></li>
-			<li><a href="https://archbishop.io/about/">About</a></li>
-		</ul>
-	</div>
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
 
 
-	<main class="site-main section-inner thin animated fadeIn faster">
-		<h1>How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck</h1>
-		<div class="content">
-			<p>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”</p>
+
+  <meta itemprop="image" content="https://archbishop.io/" />
+  <meta property="og:image" content="https://archbishop.io/" />
+  <meta name="twitter:image" content="https://archbishop.io/" />
+  <meta name="twitter:image:src" content="https://archbishop.io/" />
+
+
+
+
+
+<meta name="generator" content="Hugo 0.118.2">
+
+    
+
+    <link rel="canonical" href="https://archbishop.io/drafts/writing-alert-names-that-dont-suck/">
+    <link href="/style.min.79ee4530e2218018d2c114e16552697a0e232ecbf3214e8103a24d37cf0225b3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://archbishop.io/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    </head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://archbishop.io/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">How to win support of the Analysts near you - Writing Alert Names that Don&#39;t Suck</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2023-03-20T15:39:49&#43;10:00" itemprop="datePublished"> Mar 20, 2023 </time>
+                </div>
+                
+            </header><div class="page-content">
+                <p>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.”</p>
 <p><em>The Magicians Nephew</em></p>
-<h2 id="set-the-scene">Set the scene<a href="#set-the-scene" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="set-the-scene">Set the scene</h2>
 <p><em>Detection Engineering is equal parts storytelling and equal parts technical.</em></p>
 <p>Detection engineering is inherently a very technical and often abstracted process, but conversely there&rsquo;s a very intricately human part of this process. The ultimate goal goal of detection engineering is to select an event that requires further investigation out of a vast ocean of events and land that in front of an analyst and (hopefully do that in the most efficient way possible)</p>
 <p>But once you’ve picked a specific event to show to an analyst how do you tell the story at a glance, how do you tell the story so that an analyst is setup for success with triage and investigation, an alert name is often the very first contact, so it has to hit home first ball.</p>
-<h2 id="the-tldr"><strong>The TLDR:</strong><a href="#the-tldr" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="the-tldr"><strong>The TLDR:</strong></h2>
 <p>Upon reflection after writing all this, it really just boils down to. Don&rsquo;t create alerts in a vacuum and ask your team if what you&rsquo;re trying to say makes sense</p>
 <p>You as a team, must agree on how you will communicate to each other via alerts. If there are team specific terminologies write them down, define them and make them easy for everyone to get to and use a common taxonomy</p>
 <p>I would also recommend to document how you name detections/alerts and communicate the nomenclature to your analyst team and detection engineers to ensure important alerts are instantly recognized. This not only increases analyst productivity but also ensures critical alerts are treated with the priority they require during the triage process.</p>
@@ -89,7 +147,7 @@ Detection engineering is inherently a very technical and often abstracted proces
 <p>Getting your alerts technically peer reviewed is crucial, but as mentioned earlier it’s also crucial that as part of your peer review process is that your reviewer reads out your alert name and is able to communicate back to you what it means and hopefully if you’ve done your job right they tell you the specific scenario that you&rsquo;re looking for with the alert.</p>
 <p>&ldquo;Hello respected colleague, &quot;
 Speak out your alert name to a minimum of one other person to ensure you&rsquo;re telling the story right.</p>
-<h2 id="the-problem">The Problem<a href="#the-problem" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="the-problem">The Problem</h2>
 <p>How did we get to this blog post.</p>
 <p>I recently re-listening to <a href="https://youtu.be/LACAHuVxWwk?t=2434">Episode 24 of the DCP podcast</a>the other day where they were interviewing Jamie Williams from Mitre and they were talking about EDR evaluations, and Jamie made a comment that really resonated. He said:
 &ldquo;&hellip;We know the scenario we executed like the back of our hand, we built slides we walk them through it from a purple team perspective. Part of our results analysis, is turn your brain off pretend I have no idea what&rsquo;s going, look at the images from the vendor does it actually detect and say what&rsquo;s going on, and how does it communicate that to the end user based on the scenario we&rsquo;re running</p>
@@ -108,8 +166,8 @@ We deal with this consistently in our SOC, this problem is mainly with a second 
 But if you&rsquo;ve ever been on-call and seen a &ldquo;UNFAMILIAR SIGN IN PROPERTIES&rdquo; alert show up in your paging app then you know where I&rsquo;m coming from.
 As Jamie said vendors are often not able to remove themselves from the product and often times they&rsquo;re not fantastic at communicating what&rsquo;s happening</li>
 </ul>
-<h2 id="how-do-we-fix-this">How do we fix this<a href="#how-do-we-fix-this" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
-<h3 id="good-communication">Good Communication<a href="#good-communication" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<h2 id="how-do-we-fix-this">How do we fix this</h2>
+<h3 id="good-communication">Good Communication</h3>
 <p><em><strong>Not really sure if this part below really adds to the section..??</strong></em></p>
 <hr>
 <p>Very quickly I think it might be sensible to figure out what good communication really looks like.</p>
@@ -120,7 +178,7 @@ As Jamie said vendors are often not able to remove themselves from the product a
 <li>I think the last thing about good communication is it&rsquo;s generally a two way street. Meaning there is some sort of feedback mechanism, in our instance</li>
 </ol>
 <hr>
-<h3 id="the-plan-tm">The Plan :tm:<a href="#the-plan-tm" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<h3 id="the-plan-tm">The Plan :tm:</h3>
 <p>So here is how in a perfect world I would go about solving this problem, or at least making it better.</p>
 <p>So here is a few steps that I like to take to make this better.</p>
 <ol>
@@ -128,7 +186,7 @@ As Jamie said vendors are often not able to remove themselves from the product a
 <li>Develop a SOP for creating alerts that includes a peer review process</li>
 <li>What do you actually put in that SOP? What works well in alerts.</li>
 </ol>
-<h4 id="step-1---controlled-language-and-terminology">Step 1 - Controlled Language And Terminology<a href="#step-1---controlled-language-and-terminology" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<h4 id="step-1---controlled-language-and-terminology">Step 1 - Controlled Language And Terminology</h4>
 <p>If you’re going to call an alert Suspicious XYZ happened then the you very clearly need to define what the suspicious parameters are easily. They need to be defined at least in a field in the alert or in a easily accessible taxonomy.</p>
 <p>The University of Melbourne has a <a href="https://records.unimelb.edu.au/guides/naming-conventions">Great Guide</a> on how you actually develop a naming convention.</p>
 <p>Specifically that they call out this:</p>
@@ -139,24 +197,23 @@ As Jamie said vendors are often not able to remove themselves from the product a
 <li>Facilitated disposal of documents when no longer required for business</li>
 <li>Ensured current or active version of a templates can be easily identified</li>
 <li>Supported sharing of information within your team and with collaborators</li>
-<li>Easier and more efficient file naming for colleagues as they don&rsquo;t have to &lsquo;re-think&rsquo; the process each time.</li>
+<li>Easier and more efficient file naming for colleagues as they don&rsquo;t have to &rsquo;re-think&rsquo; the process each time.</li>
 </ul>
 <hr>
-<h4 id="step-2---develop-sop-for-creating-alerts">Step 2 - Develop SOP for Creating Alerts<a href="#step-2---develop-sop-for-creating-alerts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<h4 id="step-2---develop-sop-for-creating-alerts">Step 2 - Develop SOP for Creating Alerts</h4>
 <p>I mean this really is what it says on the can. When you are developing naming conventions often just the simple act of getting together and talking about what works for people and what doesn&rsquo;t is a great starting place.</p>
 <p>The end state here however is a well defined and written SOP. This SOP should go into the specific details and structure that you use for naming alerts at your organisation.</p>
 <p>You should also include a peer review step as part of the alert implementation, this should be somewhat related to the technical process peer review, I&rsquo;d recommend calling it out as an individual step in the process, however do what works best for your team&rsquo;s process.</p>
-<h4 id="step-3---what-actually-works-well-in-alerts">Step 3 - What actually works well in alerts<a href="#step-3---what-actually-works-well-in-alerts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<h4 id="step-3---what-actually-works-well-in-alerts">Step 3 - What actually works well in alerts</h4>
 <p>Alright the real meat and potatoes.</p>
 <p><strong>Leaning on PowerShell</strong></p>
 <p>I think what I really want to draw on is this, the verb noun syntax for PowerShell. I really like the concept of this as it really sticks in your mind once you know it
 &ldquo;The verb part of the name identifies the action that the cmdlet performs. The noun part of the name identifies the entity on which the action is performed&rdquo;</p>
 <p><a href="https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.3">https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.3</a></p>
 <p>For example, take this powershell string, where at the start we have what we want to do (verb) and then after that we have on what (noun)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">
-Get-Service | Where-Object <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;blah&#34;</span>
-
-</code></pre></div><p>What would this potentially look like as an alert.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">Get-Service</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="o">-eq</span> <span class="s2">&#34;blah&#34;</span>
+</span></span></code></pre></div><p>What would this potentially look like as an alert.</p>
 <p>If we go along the lines of this <em>action</em> happened <em>here</em>:</p>
 <p>If we&rsquo;re to draw on a common taxonomy for setting words, in this instance, Mitre ATT&amp;CK. We might end up with this</p>
 <p><strong>Potential Credential Dumping of LSASS Occurred on LAP0002 By Admin_Tim</strong></p>
@@ -165,24 +222,64 @@ Get-Service | Where-Object <span style="color:#f92672">-eq</span> <span style="c
 <p>It&rsquo;s also a good idea to put technical details in the alert to assist with earlier triage, to take from the example earlier, the things that are anomalous about the login, put them in the alert name</p>
 <p>Obviously we don&rsquo;t want entire paragraphs in the alert name, however where it&rsquo;s applicable you can help facilitate a faster triage process by putting information that the analyst needs to make a decision, especially in times of pressure such as after hours, (anyone who&rsquo;s ever triaged a Defender for Identity DCSync alert at 2am after deep sleep would know that you&rsquo;re not exactly dealing with a full deck)</p>
 <p>All in all, it&rsquo;s very important for analysts to understand <strong>WHY</strong> and alert triggered, and we can help preload that by thinking about our alert names and using known words that trigger meaning in their mind.</p>
-<h2 id="fin">Fin<a href="#fin" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="fin">Fin</h2>
 <p>Thank you for your time, if you got this far I appreciate the effort.</p>
 
-		</div>
-	</main>
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
 
-	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2023 <a href="https://archbishop.io/"></a></p>
-		<p>
-			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://archbishop.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
-		</p>
-	</footer>
+    <div class="footer_social-icons">
+<a href="https://github.com/archb1sh0p" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://infosec.exchange/@archbishop" target="_blank" rel="noopener noreferrer me"
+    title="Mastodon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M21.58 13.913c-.29 1.469-2.592 3.121-5.238 3.396-1.379.184-2.737.368-4.185.276-2.368-.092-4.237-.551-4.237-.551 0 .184.014.459.043.643.308 2.294 2.317 2.478 4.22 2.57 1.922 0 3.633-.46 3.633-.46l.079 1.653s-1.344.734-3.738.918c-1.32.091-2.96-.092-4.869-.551-4.14-1.102-4.853-5.507-4.961-10.005-.034-1.285-.013-2.57-.013-3.58 0-4.589 3-5.966 3-5.966 1.513-.734 4.11-1.01 6.808-1.01h.067c2.699 0 5.296.276 6.81 1.01 0 0 3 1.377 3 5.967 0 0 .037 3.304-.419 5.69"
+        stroke="currentColor" />
+    <path
+        d="M17.832 8.633v5h-1.978V8.78c0-1.023-.43-1.542-1.29-1.542-.95 0-1.427.616-1.427 1.834v2.655H11.17V9.072c0-1.218-.476-1.834-1.427-1.834-.86 0-1.29.52-1.29 1.542v4.852H6.475V8.633c0-1.022.26-1.834.782-2.434.538-.6 1.243-.909 2.118-.909 1.012 0 1.779.39 2.286 1.169l.492.827.493-.827c.507-.78 1.274-1.169 2.286-1.169.875 0 1.58.308 2.118.909.522.6.782 1.412.782 2.434"
+        fill="currentColor" stroke="none" />
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2023 Tim.
+        
+    </small>
+</footer>
 
 
 
-	<script src="https://archbishop.io/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
-	
+
+
+
+
+    
+    <script src="https://archbishop.io/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+
+    
 
 </body>
-
 </html>
