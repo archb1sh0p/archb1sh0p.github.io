@@ -3,24 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://archbishop.io/</loc>
-    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/tags/communication/</loc>
-    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/tags/detectionengineering/</loc>
-    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/posts/</loc>
-    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/tags/</loc>
-    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/tags/whatsinaname/</loc>
-    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/posts/alert-names-that-dont-suck/</loc>
+    <lastmod>2023-11-07T09:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/drafts/</loc>
+    <lastmod>2023-10-07T21:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://archbishop.io/drafts/alert-names-that-dont-suckv2/</loc>
     <lastmod>2023-10-07T21:00:00+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/tags/references/</loc>
@@ -38,10 +44,7 @@
     <loc>https://archbishop.io/posts/cybercon-2023-incident-management-references/</loc>
     <lastmod>2023-03-20T15:39:49+10:00</lastmod>
   </url><url>
-    <loc>https://archbishop.io/drafts/</loc>
-    <lastmod>2023-03-20T15:39:49+10:00</lastmod>
-  </url><url>
-    <loc>https://archbishop.io/drafts/writing-alert-names-that-dont-suck/</loc>
+    <loc>https://archbishop.io/drafts/writing-alert-names-that-dont-suckv1/</loc>
     <lastmod>2023-03-20T15:39:49+10:00</lastmod>
   </url><url>
     <loc>https://archbishop.io/tags/incidentmanagement/</loc>

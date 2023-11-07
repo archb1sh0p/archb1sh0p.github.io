@@ -6,17 +6,18 @@
     <description>Recent content in Posts on archbishopsec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Oct 2023 21:00:00 +1000</lastBuildDate><atom:link href="https://archbishop.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 09:00:00 +1000</lastBuildDate><atom:link href="https://archbishop.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Writing Alert Names that Don&#39;t Suck - How to win hearts of SOC Analysts</title>
+      <title>Writing Better Alert Names - How to win hearts of SOC Analysts</title>
       <link>https://archbishop.io/posts/alert-names-that-dont-suck/</link>
-      <pubDate>Sat, 07 Oct 2023 21:00:00 +1000</pubDate>
+      <pubDate>Tue, 07 Nov 2023 09:00:00 +1000</pubDate>
       
       <guid>https://archbishop.io/posts/alert-names-that-dont-suck/</guid>
       
       <description>“What you see and what you hear depends a great deal on where you are standing. It also depends on what sort of person you are.” ~ The Magicians Nephew - CS Lewis
-Set the scene Detection Engineering is not just about the technical nitty gritty, it almost requres you to be a storyteller
-Detection engineering is inherently a very technical and often abstracted process, but conversely there&amp;rsquo;s a very intricately human part of creating a detection.</description>
+Thanks to Hanner for her feedback on this post.
+The Problem Detection Engineering requires you to be a storyteller
+Detection engineering is inherently a very technical and often abstracted process, but conversely, there&amp;rsquo;s a very intricately human part of creating a detection.</description>
       
     </item>
     
