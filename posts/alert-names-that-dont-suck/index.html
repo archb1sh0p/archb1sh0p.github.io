@@ -52,7 +52,7 @@
         },
         "datePublished": "2023-11-07",
         "description": "",
-        "wordCount":  1871 ,
+        "wordCount":  1872 ,
         "mainEntityOfPage": "True",
         "dateModified": "2023-11-07",
         "image": {
@@ -259,9 +259,9 @@ Some of the fun we do is just that, looking at a picture and the vendor says thi
 <p>Here&rsquo;s a few strategies that I&rsquo;ve found to not only help detection engineering, but overall operations in a SOC. But these are especially suited to improving alert names.
 They are:</p>
 <ol>
-<li>Use consistent terminology</li>
-<li>Peer review detection names</li>
-<li>Decide what is most important for an analyst to know</li>
+<li>Use consistent terminology.</li>
+<li>Peer review detection names.</li>
+<li>Decide what is most important for an analyst to know.</li>
 </ol>
 <h4 id="step-1---use-consistent-terminology">Step 1 - Use consistent terminology</h4>
 <p>If you’re going to call an alert <em>Suspicious XYZ happened</em> then you need to clearly define what the suspicious parameters are. They need to be defined at least in a field in the alert or in an easily accessible taxonomy.</p>
@@ -287,7 +287,7 @@ They are:</p>
 <h4 id="step-2---peer-review-detection-names">Step 2 - Peer review detection names</h4>
 <p>When you&rsquo;re developing naming conventions often just the simple act of getting together and talking about what works for people and what doesn&rsquo;t is a great starting place.</p>
 <p>The end state here however is a well-defined and written SOP. This SOP should go into the specific details and structure that you use for naming alerts at your organisation.</p>
-<p>You should also include a peer review step as part of the alert implementation, this should be somewhat related to the technical peer review, I&rsquo;d recommend calling it out as an individual step in the process, however, do what works best for your team&rsquo;s process.</p>
+<p>You should also include a peer review step as part of the alert implementation, this should be somewhat related to the technical peer review. I&rsquo;d recommend calling it out as an individual step in the process. However, do what works best for your team&rsquo;s process.</p>
 <h4 id="step-3---decide-what-is-most-important-for-an-analyst-to-know">Step 3 - Decide what is most important for an analyst to know</h4>
 <p>Context is key for an analyst, anything to get that context to them quicker is a win. These are a few tools/methods that help make that easier:</p>
 <h5 id="the-5-levels-of-messages">The 5 levels of messages</h5>
@@ -308,7 +308,7 @@ This is a fantastic read and really delves deep into this concept of long term h
 <p><a href="https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.3">https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.3</a></p>
 <p>For example, take this PowerShell string, where at the start we have what we want to do (verb), and then after that, we have what (noun).</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Get-Service</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="o">-eq</span> <span class="s2">&#34;blah&#34;</span>
-</span></span></code></pre></div><p>If we go along the lines of this <em>action</em> happened <em>here</em> and draw on a common taxonomy for setting words. In this instance, Mitre ATT&amp;CK, we might end up with this:</p>
+</span></span></code></pre></div><p>If we go along the lines of this <em>action</em> happened <em>here</em> and draw on a common taxonomy for setting words. (We&rsquo;ll use Mitre ATT&amp;CK in this instance as our taxonomy of choice.)</p>
 <p><strong>Potential Credential Dumping of LSASS Occurred on LAP0002 By Admin_Tim</strong></p>
 <p><strong>Suspicious Login - User Tim logged in from a new laptop and city</strong></p>
 <p>While ATT&amp;CK is good for some things and not good for others, (a topic for another day) it is good as a <em>Folk Taxonomy</em>, and using the Techniques and Procedures is a great way to get everyone singing from the same hymnbook.</p>
