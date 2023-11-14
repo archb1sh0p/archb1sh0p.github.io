@@ -273,36 +273,36 @@ stroke-linejoin="round" class="feather feather-home">
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-8d097781">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-8d097781">
-        <div class="pdf-loading" id="pdf-loading-8d097781"></div>
+  </style><div class="embed-pdf-container" id="embed-pdf-container-296e247e">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-296e247e">
+        <div class="pdf-loading" id="pdf-loading-296e247e"></div>
     </div>
     <div id="overlayText">
-      <a href="./static/ACSCCyberIncidentResponsePlanGuidance_A4.pdf" aria-label="Download" download>
+      <a href="/static/ACSCCyberIncidentResponsePlanGuidance_A4.pdf" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
             <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
         </svg>
       </a>
     </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-8d097781"></canvas>
+    <canvas class="pdf-canvas" id="pdf-canvas-296e247e"></canvas>
 </div>
 
-<div class="pdf-paginator" id="pdf-paginator-8d097781">
-    <button id="pdf-prev-8d097781">Previous</button>
-    <button id="pdf-next-8d097781">Next</button> &nbsp; &nbsp;
+<div class="pdf-paginator" id="pdf-paginator-296e247e">
+    <button id="pdf-prev-296e247e">Previous</button>
+    <button id="pdf-next-296e247e">Next</button> &nbsp; &nbsp;
     <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-8d097781"></span> / <span class="pdf-pagecount" id="pdf-pagecount-8d097781"></span>
+      <span class="pdf-pagenum" id="pdf-pagenum-296e247e"></span> / <span class="pdf-pagecount" id="pdf-pagecount-296e247e"></span>
     </span>
-    <a class="pdf-source" id="pdf-source-8d097781" href="./static/ACSCCyberIncidentResponsePlanGuidance_A4.pdf">[pdf]</a>
+    <a class="pdf-source" id="pdf-source-296e247e" href="/static/ACSCCyberIncidentResponsePlanGuidance_A4.pdf">[pdf]</a>
 </div>
 
 <noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-8d097781" href="./static/ACSCCyberIncidentResponsePlanGuidance_A4.pdf">here</a>.
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-296e247e" href="/static/ACSCCyberIncidentResponsePlanGuidance_A4.pdf">here</a>.
 </noscript>
 
 <script type="text/javascript">
     (function(){
-    var url = '.\/static\/ACSCCyberIncidentResponsePlanGuidance_A4.pdf';
+    var url = '\/static\/ACSCCyberIncidentResponsePlanGuidance_A4.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
@@ -321,10 +321,10 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8d097781" href="
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-8d097781'),
+        canvas = document.getElementById('pdf-canvas-296e247e'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-8d097781"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-8d097781');
+        paginator = document.getElementById("pdf-paginator-296e247e"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-296e247e');
 
 
     
@@ -362,7 +362,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8d097781" href="
       });
 
       
-      document.getElementById('pdf-pagenum-8d097781').textContent = num;
+      document.getElementById('pdf-pagenum-296e247e').textContent = num;
     }
 
     
@@ -406,7 +406,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8d097781" href="
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-8d097781').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-296e247e').addEventListener('click', onPrevPage);
 
     
 
@@ -417,14 +417,14 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8d097781" href="
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-8d097781').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-296e247e').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-8d097781').textContent = numPages;
+      document.getElementById('pdf-pagecount-296e247e').textContent = numPages;
 
       
       if(pageNum > numPages) {
