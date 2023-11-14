@@ -52,7 +52,7 @@
         },
         "datePublished": "2023-11-07",
         "description": "",
-        "wordCount":  1712 ,
+        "wordCount":  1716 ,
         "mainEntityOfPage": "True",
         "dateModified": "2023-11-07",
         "image": {
@@ -211,35 +211,35 @@ The ultimate goal of detection engineering is to select an event that requires f
 <p>A detection name is the first thing that an analyst sees - it tells a story and sets a course for investigation.
 How do we name an alert so that it sets the analyst on the right path?</p>
 <p>What do I mean by not great alert names? Let&rsquo;s have a perusal in a few public alert libraries.</p>
-<p><em>Disclaimer. I have personally  written some absolutely rubbish alerts, this is not me attempting to dunk on any of the work below, but rather show how some of these alerts could do with some modification to make them easier to triage and investigate</em></p>
+<p><em>Disclaimer. I have personally  written some absolutely rubbish alerts, this is not me attempting to dunk on any of the work below, but rather show how some of these alerts could do with some modification to make them easier to triage and investigate.</em></p>
 <h3 id="alerts-with-names-that-are-hard-to-understand">Alerts with names that are hard to understand</h3>
 <p><img src="/static/SplunkAlert.png" alt="Splunk Alert">
 <a href="https://research.splunk.com/endpoint/d25d2c3d-d9d8-40ec-8fdf-e86fe155a3da/">Splunk Alert</a></p>
 <ol>
-<li>Use uncommon words</li>
-<li>It&rsquo;s vague and lacks detail</li>
-<li>Where do you start here</li>
-<li>Doesn&rsquo;t convey why this needs to be looked</li>
+<li>Use of uncommon words.</li>
+<li>It&rsquo;s vague and lacks detail.</li>
+<li>Where do you start here.</li>
+<li>Doesn&rsquo;t convey why this needs to be looked at.</li>
 </ol>
 <p><img src="/static/AAIDP-Alert.png" alt="Azure AD Identity Protection Alert">
 <a href="https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks#unfamiliar-sign-in-properties">Azure AD Identity Protection Alert</a></p>
 <ol>
-<li>Very vague, little details</li>
-<li>Doesn&rsquo;t set an analyst on the right path</li>
-<li>Specific activity is not listed in the alert name</li>
+<li>Very vague, little details.</li>
+<li>Doesn&rsquo;t set an analyst on the right path.</li>
+<li>Specific activity is not listed in the alert name.</li>
 </ol>
 <h3 id="alerts-with-names-that-are-a-bit-easier-to-understand">Alerts with names that are a bit easier to understand</h3>
 <p>*better in comparison to the alert names above.</p>
 <p><img src="/static/Elastic-Alert.png" alt="Potential Credential Access via Windows Utilities">
 <a href="https://github.com/elastic/detection-rules/blob/main/rules/windows/credential_access_credential_dumping_msbuild.toml">Potential Credential Access via Windows Utilities</a></p>
 <ol>
-<li>This has struck the balance between too much detail and too little</li>
-<li>This alert uses common language (this alert uses Mitre ATT&amp;CK)</li>
+<li>This has struck the balance between too much detail and too little.</li>
+<li>This alert uses common language (this alert uses Mitre ATT&amp;CK).</li>
 <li>This is a bit subjective, but I can more easily determine urgency with this alert.</li>
 </ol>
 <p>This is also not necessarily something that I&rsquo;ve made up all on my own&hellip;</p>
 <p>I was recently re-listening to <a href="https://youtu.be/LACAHuVxWwk?t=2434">Episode 24 of the DCP podcast</a> where they were interviewing Jamie Williams from Mitre. They were talking about EDR evaluations, and Jamie made a comment that resonated. He said:</p>
-<p>&ldquo;&hellip;We know the scenario we executed like the back of our hand, we built slides we walk them through it from a purple team perspective. Part of our results analysis, is turn your brain off pretend I have no idea what&rsquo;s going, look at the images from the vendor does it actually detect and say what&rsquo;s going on, and how does it communicate that to the end user based on the scenario we&rsquo;re running
+<p>&ldquo;&hellip;We know the scenario we executed like the back of our hand, we built slides we walk them through it from a purple team perspective. Part of our results analysis, is turn your brain off pretend I have no idea what&rsquo;s going, look at the images from the vendor does it actually detect and say what&rsquo;s going on, and how does it communicate that to the end user based on the scenario we&rsquo;re running.
 Some of the fun we do is just that, looking at a picture and the vendor says this is this, and we say well does it really, I read everything in front of me I understand under the hood what&rsquo;s happening, and what the motivation for this UI was, <strong>but it doesn&rsquo;t communicate it as well as you think it does</strong> &quot;</p>
 <h2 id="how-do-we-fix-this">How do we fix this?</h2>
 <hr>
@@ -252,7 +252,7 @@ Some of the fun we do is just that, looking at a picture and the vendor says thi
 <li>So point one is who are you trying to communicate here is also important, are they entry-level, technical or non-technical?</li>
 <li>It&rsquo;s clear, good communication is clear and straight up, and we don&rsquo;t dilly dally around the point.</li>
 <li>Using big words is cool, but maybe leave them out at this stage, while you might want to say how something is <em>Salient</em> or rather <em>Obstreperous</em>, however, it&rsquo;s super important when you&rsquo;re communicating with someone that they understand the words you&rsquo;re using, otherwise if you use big words people will just think you&rsquo;re a bit of weird unit.</li>
-<li>And finally, good communication is it&rsquo;s generally a two-way street. Meaning there is some sort of feedback mechanism.</li>
+<li>And finally, good communication is a two-way street. For me listening is just as important as speaking it should be at a minimum a 50/50 split</li>
 </ol>
 <hr>
 <h3 id="the-plan-tm">The Plan :tm:</h3>
@@ -263,7 +263,7 @@ Some of the fun we do is just that, looking at a picture and the vendor says thi
 <li>Decide what is most important for an analyst to know</li>
 </ol>
 <h4 id="step-1---use-consistent-terminology">Step 1 - Use consistent terminology</h4>
-<p>If you’re going to call an alert Suspicious XYZ happened then you very clearly need to define what the suspicious parameters are easily. They need to be defined at least in a field in the alert or in an easily accessible taxonomy.</p>
+<p>If you’re going to call an alert <em>Suspicious XYZ happened</em> then you very clearly need to define what the suspicious parameters are easily. They need to be defined at least in a field in the alert or in an easily accessible taxonomy.</p>
 <p>The University of Melbourne has a <a href="https://records.unimelb.edu.au/guides/naming-conventions">Great Guide</a> on how you develop a naming convention.</p>
 <p>Specifically, they call out this:</p>
 <hr>
@@ -277,7 +277,7 @@ Some of the fun we do is just that, looking at a picture and the vendor says thi
 </ul>
 <hr>
 <h4 id="step-2---peer-review-detection-names">Step 2 - Peer review detection names</h4>
-<p>I mean this is what it says on the can. When you are developing naming conventions often just the simple act of getting together and talking about what works for people and what doesn&rsquo;t is a great starting place.</p>
+<p>When you are developing naming conventions often just the simple act of getting together and talking about what works for people and what doesn&rsquo;t is a great starting place.</p>
 <p>The end state here however is a well-defined and written SOP. This SOP should go into the specific details and structure that you use for naming alerts at your organisation.</p>
 <p>You should also include a peer review step as part of the alert implementation, this should be somewhat related to the technical peer review, I&rsquo;d recommend calling it out as an individual step in the process, however, do what works best for your team&rsquo;s process.</p>
 <h4 id="step-3---decide-what-is-most-important-for-an-analyst-to-know">Step 3 - Decide what is most important for an analyst to know</h4>
@@ -294,19 +294,19 @@ Some of the fun we do is just that, looking at a picture and the vendor says thi
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">Get-Service</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="o">-eq</span> <span class="s2">&#34;blah&#34;</span>
 </span></span></code></pre></div><p>If we go along the lines of this <em>action</em> happened <em>here</em>:</p>
-<p>If we&rsquo;re to draw on a common taxonomy for setting words, in this instance, Mitre ATT&amp;CK. We might end up with this</p>
+<p>If we&rsquo;re to draw on a common taxonomy for setting words, in this instance, Mitre ATT&amp;CK, we might end up with this:</p>
 <p><strong>Potential Credential Dumping of LSASS Occurred on LAP0002 By Admin_Tim</strong></p>
 <p><strong>Suspicious Login - User Tim logged in from a new laptop and city</strong></p>
 <p>While ATT&amp;CK is good for some things and not good for others, (a topic for another day) it is good as a Folk Taxonomy, and using the Techniques and Procedures is a great way to get everyone singing from the same hymnbook.</p>
-<p>It&rsquo;s also a good idea to put technical details in the alert to assist with earlier triage, to take from the example earlier, the things that are anomalous about the login, put them in the alert name</p>
+<p>It&rsquo;s also a good idea to put technical details in the alert to make triage faster, (remember, not too verbose though). To take from the example earlier, the things that are anomalous about the login, put them in the alert name.</p>
 <p>We don&rsquo;t want entire paragraphs in the alert name, however where it&rsquo;s applicable you can help facilitate a faster triage process by putting information that the analyst needs to make a decision, especially in times of pressure such as after hours, (anyone who&rsquo;s ever triaged a Defender for Identity DCSync alert at 2 am after deep sleep would know that you&rsquo;re not exactly dealing with a full deck)</p>
 <p>All in all, analysts need to understand <strong>WHY</strong> an alert has been triggered, and we can help preload that by thinking about our alert names and using known words that trigger meaning in their minds.</p>
 <h2 id="fintldr">Fin/TLDR</h2>
 <p>Thank you for your time, if you got this far nice work.</p>
-<p>Upon reflection after writing all this, it just boils down to. Don&rsquo;t create alerts in a vacuum and ask your team if what you&rsquo;re trying to say makes sense</p>
-<p>You as a team, must agree on how you will communicate to each other via alerts. If there are team-specific terminologies write them down, define them, and make them easy for everyone to get to and use a common taxonomy</p>
+<p>Upon reflection after writing all this, it just boils down to. Don&rsquo;t create alerts in a vacuum and ask your team if what you&rsquo;re trying to say makes sense.</p>
+<p>You as a team, must agree on how you will communicate to each other via alerts. If there are team-specific terminologies write them down, define them, and make them easy for everyone to get to and use a common taxonomy.</p>
 <p>I would also recommend documenting how you name detections/alerts and communicate the nomenclature to your analyst team and detection engineers to ensure important alerts are instantly recognized. This not only increases analyst productivity but also ensures critical alerts are treated with the priority they require during the triage process.</p>
-<p>Short, sharp, and concise is key to this, as a PowerShell nerd have very much drawn on the noun-verb philosophy here and like using <em>action happened to thing</em> and using a known taxonomy and know categories of attacks (for example Mitre ATT&amp;CK)</p>
+<p>Short, sharp, and concise is key to this, as a PowerShell nerd have very much drawn on the noun-verb philosophy here and like using <em>action happened to thing</em> and using a known taxonomy and know categories of attacks (for example Mitre ATT&amp;CK).</p>
 <p>Getting your alerts technically peer reviewed is crucial, but as mentioned earlier it’s also crucial that as part of your peer review process is that your reviewer reads out your alert name and can communicate back to you what it means and hopefully if you’ve done your job right they tell you the specific scenario that you&rsquo;re looking for with the alert.</p>
 <p>&ldquo;Hello, respected colleague, &quot;
 Speak out your alert name to a minimum of one other person to ensure you&rsquo;re telling the story right.</p>
